@@ -1,0 +1,121 @@
+{
+  "item.prodigium.cobalt_ingot": "Cobalt Ingot",
+  "item.prodigium.raw_cobalt": "Raw Cobalt",
+  "item.prodigium.cobalt_nugget": "Cobalt Nugget",
+
+  "item.prodigium.cobalt_sword": "Cobalt Sword",
+  "item.prodigium.cobalt_axe": "Cobalt Axe",
+  "item.prodigium.cobalt_hoe": "Cobalt Hoe",
+  "item.prodigium.cobalt_pickaxe": "Cobalt Pickaxe",
+  "item.prodigium.cobalt_shovel": "Cobalt Shovel",
+
+  "item.prodigium.cobalt_helmet": "Cobalt Helmet",
+  "item.prodigium.cobalt_chestplate": "Cobalt Chestplate",
+  "item.prodigium.cobalt_leggings": "Cobalt Leggings",
+  "item.prodigium.cobalt_boots": "Cobalt Boots",
+
+  "block.prodigium.cobalt_block": "Block of Cobalt",
+  "block.prodigium.cobalt_ore": "Cobalt Ore",
+  "block.prodigium.deepslate_cobalt_ore": "Deepslate Cobalt Ore",
+
+
+
+  "item.prodigium.palladium_ingot": "Palladium Ingot",
+  "item.prodigium.raw_palladium": "Raw Palladium",
+  "item.prodigium.palladium_nugget": "Palladium Nugget",
+
+  "item.prodigium.palladium_rod": "Palladium Rod",
+  "item.prodigium.palladium_bow": "Palladium Bow",
+
+  "item.prodigium.palladium_sword": "Palladium Sword",
+  "item.prodigium.palladium_axe": "Palladium Axe",
+  "item.prodigium.palladium_hoe": "Palladium Hoe",
+  "item.prodigium.palladium_pickaxe": "Palladium Pickaxe",
+  "item.prodigium.palladium_shovel": "Palladium Shovel",
+
+  "item.prodigium.palladium_helmet": "Palladium Helmet",
+  "item.prodigium.palladium_chestplate": "Palladium Chestplate",
+  "item.prodigium.palladium_leggings": "Palladium Leggings",
+  "item.prodigium.palladium_boots": "Palladium Boots",
+
+  "block.prodigium.palladium_ore": "Palladium Ore",
+  "block.prodigium.deepslate_palladium_ore": "Deepslate Palladium Ore",
+
+
+
+  "item.prodigium.shroomite_ingot": "Shroomite Ingot",
+
+  "item.prodigium.shroomite_sword": "Shroomite Sword",
+  "item.prodigium.shroomite_axe": "Shroomite Axe",
+  "item.prodigium.shroomite_hoe": "Shroomite Hoe",
+  "item.prodigium.shroomite_pickaxe": "Shroomite Pickaxe",
+  "item.prodigium.shroomite_shovel": "Shroomite Shovel",
+
+  "item.prodigium.shroomite_rod": "Shroomite Rod",
+  "item.prodigium.shroomite_bow": "Shroomite Bow",
+
+  "item.prodigium.shroomite_helmet": "Shroomite Helmet",
+  "item.prodigium.shroomite_chestplate": "Shroomite Chestplate",
+  "item.prodigium.shroomite_leggings": "Shroomite Leggings",
+  "item.prodigium.shroomite_boots": "Shroomite Boots",
+
+
+
+  "item.prodigium.orichalcum_ingot": "Orichalcum Ingot",
+  "item.prodigium.raw_orichalcum": "Raw Orichalcum",
+  "item.prodigium.orichalcum_nugget": "Orichalcum Nugget",
+
+  "item.prodigium.orichalcum_rod": "Orichalcum Rod",
+  "item.prodigium.orichalcum_bow": "Orichalcum Bow",
+
+  "item.prodigium.orichalcum_sword": "Orichalcum Sword",
+  "item.prodigium.orichalcum_axe": "Orichalcum Axe",
+  "item.prodigium.orichalcum_hoe": "Orichalcum Hoe",
+  "item.prodigium.orichalcum_pickaxe": "Orichalcum Pickaxe",
+  "item.prodigium.orichalcum_shovel": "Orichalcum Shovel",
+
+  "item.prodigium.orichalcum_helmet": "Orichalcum Helmet",
+  "item.prodigium.orichalcum_chestplate": "Orichalcum Chestplate",
+  "item.prodigium.orichalcum_leggings": "Orichalcum Leggings",
+  "item.prodigium.orichalcum_boots": "Orichalcum Boots",
+
+  "block.prodigium.orichalcum_ore": "Orichalcum Ore",
+
+  "item.prodigium.adamantium_mask": "Adamantium Mask",
+  "item.prodigium.strange_paste": "Strange paste",
+
+  "item.prodigium.token_melee": "§3Class Token - Melee",
+  "item.prodigium.token_mage": "§3Class Token - Mage",
+  "item.prodigium.token_ranged": "§3Class Token - Ranged",
+  "item.prodigium.reset_token_melee": "§4Reset Token - Melee",
+  "item.prodigium.reset_token_mage": "§4Reset Token - Mage",
+  "item.prodigium.reset_token_ranged": "§4Reset Token - Ranged",
+
+  "item.prodigium.defender_medal": "§6Defender Medal",
+  "item.prodigium.eternia_crystal": "§6Eternia Crystal",
+
+  "item.prodigium.conjurer_treasure_bag": "§b§lConjurer Treasure Bag",
+  "item.prodigium.sunbird_treasure_bag": "§b§lSunbird Treasure Bag",
+  "item.prodigium.dead_king_treasure_bag": "§b§lDead King Treasure Bag",
+  "item.prodigium.frostmaw_treasure_bag": "§b§lFrostmaw Treasure Bag",
+  "item.prodigium.awful_ghast_treasure_bag": "§b§lAwful Ghast Treasure Bag",
+  "item.prodigium.nether_keeper_treasure_bag": "§b§lNether Keeper Treasure Bag",
+  "item.prodigium.nether_gauntlet_treasure_bag": "§b§lNether Gauntlet Treasure Bag",
+  "item.prodigium.netherite_monstrosity_treasure_bag": "§b§lNetherite Monstrosity Treasure Bag",
+  "item.prodigium.slider_treasure_bag": "§b§lSlider Treasure Bag",
+  "item.prodigium.valkyrie_queen_treasure_bag": "§b§lValkyrie Queen Treasure Bag",
+  "item.prodigium.night_lich_treasure_bag": "§b§lNight Lich Treasure Bag",
+  "item.prodigium.void_blossom_treasure_bag": "§b§lVoid Blossom Treasure Bag",
+  "item.prodigium.sun_spirit_treasure_bag": "§b§lSun Spirit Treasure Bag",
+  "item.prodigium.leviathan_treasure_bag": "§b§lLeviathan Treasure Bag",
+  "item.prodigium.harbinger_treasure_bag": "§b§lHarbinger Treasure Bag",
+  "item.prodigium.ignis_treasure_bag": "§b§lIgnis Treasure Bag",
+  "item.prodigium.obsidilith_treasure_bag": "§b§lObsidilith Treasure Bag",
+  "item.prodigium.void_worm_treasure_bag": "§b§lVoid Worm Treasure Bag",
+  "item.prodigium.ancient_remnant_treasure_bag": "§b§lAncient Remnant Treasure Bag",
+  "item.prodigium.ender_guardian_treasure_bag": "§b§lEnder Guardian Treasure Bag",
+
+
+
+  "creativetab.prodigium_tab": "Prodigium's creative tab"
+}
