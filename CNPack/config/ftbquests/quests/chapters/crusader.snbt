@@ -1,0 +1,235 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crusader"
+	group: "52532F5E67425F1C"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		id: "stalwart_dungeons:golden_hammer"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0FADD8D8A96DCBA7"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["44FCF260737D0785"]
+			description: ["{ftbquests.chapter.crusader.quest1.description1}"]
+			hide_dependency_lines: false
+			id: "4295FD014E3D5800"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "157E475C5C4819C6"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15892F5D3E98534A"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					id: "1E262FAE71EFDC99"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "40A6AA876BEFD3DD"
+					item: {
+						Count: 1
+						id: "simpleores:mythril_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "{ftbquests.chapter.crusader.quest1.task_+4658598363169543133.title}"
+					type: "item"
+				}
+				{
+					id: "095C6D2E09F549B7"
+					item: {
+						Count: 1
+						id: "paladins:paladin_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "{ftbquests.chapter.crusader.quest1.task_+674534088701725111.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.crusader.quest1.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4295FD014E3D5800"]
+			hide: true
+			id: "3A908ED8568C4279"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CA043612D99597A"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					id: "06AFAC895FEFD81F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "0BC2CBFD6B76D13B"
+					item: {
+						Count: 1
+						id: "paladins:crusader_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "{ftbquests.chapter.crusader.quest2.task_+847463969189187899.title}"
+					type: "item"
+				}
+				{
+					id: "521DFB9908C92A81"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "{ftbquests.chapter.crusader.quest2.task_+5917162120130669185.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.crusader.quest2.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A908ED8568C4279"]
+			hide: true
+			id: "17E89E220CD2DACA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02C0B097DDE8B653"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					id: "00AEC466BC17BE86"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "6993A5BE56E815E4"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "{ftbquests.chapter.crusader.quest3.task_+7607606432479319524.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.crusader.quest3.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4295FD014E3D5800"]
+			hide: true
+			id: "470ECEF309E513B7"
+			rewards: [{
+				auto: "no_toast"
+				id: "7D3CA326CCD34891"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6B79186D6EED57CD"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:iron_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.crusader.quest4.title}"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4295FD014E3D5800"]
+			hide: true
+			id: "30D9026F9DEED078"
+			rewards: [{
+				auto: "no_toast"
+				id: "4DCBD5474C36FDE6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "267DCE8A252FB68F"
+				item: {
+					Count: 1
+					id: "paladins:iron_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.crusader.quest5.title}"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4295FD014E3D5800"]
+			id: "4D6543C1B848F5FA"
+			rewards: [{
+				auto: "no_toast"
+				id: "68577C2A61F7FD7B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7C733A46B07D7DAB"
+				item: {
+					Count: 1
+					id: "simple_weapons:iron_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.crusader.quest6.title}"
+			x: 1.5d
+			y: -1.0d
+		}
+	]
+	title: "{ftbquests.chapter.crusader.title}"
+}

@@ -1,0 +1,614 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_game"
+	group: "3172DA2E2FE4A37B"
+	icon: {
+		Count: 1
+		id: "minecraft:enchanted_book"
+		tag: {
+			StoredEnchantments: [{
+				id: "combatroll:acrobat"
+				lvl: 1s
+			}]
+		}
+	}
+	id: "1E0EF11BC6160E19"
+	images: [
+		{
+			height: 3.5d
+			image: "bettericons:textures/items/tile021.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			height: 2.25d
+			image: "prodigium_reforged:textures/gui/master_mode.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 16.5d
+			y: -3.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["178CBBAB037A6FE8"]
+			description: ["{ftbquests.chapter.end_game.quest1.description1}"]
+			id: "1F0F1E44E140025C"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "23631A059B79D99C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C0B9B82F1FBEF61"
+					table_id: 518173385962404322L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2934B8A5346AFAA9"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest1.reward_2969201074032540329.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:crusader 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "520EE244D800BA9D"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest1.reward_5912912146093619869.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "52D7898E9616183C"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest1.reward_5969391076599273532.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "05EF9A1507EC4A40"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest1.reward_427729904741403200.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "06818C947276DCE0"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest1.reward_468810405426683104.title}"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:void_worm_eye"
+				id: "117BFAC8B3DE0C43"
+				title: "{ftbquests.chapter.end_game.quest1.task_+1259876260698262595.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CAE385F554764AE"]
+			description: ["{ftbquests.chapter.end_game.quest2.description1}"]
+			hide: false
+			id: "499AD4E69B48B516"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "54FD045DA3E4258E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1E119C5C6F52B7C4"
+					item: "minecraft:netherite_scrap"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D21E330C61F2FFE"
+					table_id: 518173385962404322L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7E3DDA423222169B"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest2.reward_9096666800202061467.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:crusader 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2F5A7305FD7F8E56"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest2.reward_3412166137251597910.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6D07CA881297E3FC"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest2.reward_7856470760747426812.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5CB2313CD63C31BF"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest2.reward_6679455334705934783.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "206EEF428E60886A"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest2.reward_2337068325787437162.title}"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.75d
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "majruszsdifficulty:enderium_shard"
+				id: "04D5EB5486245C39"
+				title: "{ftbquests.chapter.end_game.quest2.task_+348443294451391545.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69211BF1D6204C54"]
+			description: ["{ftbquests.chapter.end_game.quest3.description1}"]
+			id: "4CAE385F554764AE"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2E51BE6CB2A4AC18"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "57D03D0ABE8CACBF"
+					item: "minecraft:netherite_scrap"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B1E5CE5AE48BFF7"
+					table_id: 518173385962404322L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:berseker 1"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2F1424B4925C78E7"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest3.reward_3392376777285073127.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:crusader 1"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1D8302AAA2FC755E"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest3.reward_2126546380951156062.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranged 1"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4393BE5168C5891E"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest3.reward_4869444878977042718.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 1"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "11579B9DFE67E76F"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest3.reward_1249638524498995055.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 1"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "32E0090EC329E0FB"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest3.reward_3665940055688077563.title}"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:void_core"
+				id: "28CFCAC0B99706F3"
+				title: "{ftbquests.chapter.end_game.quest3.task_+2940792010792437491.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 20.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F2E994C5099612A"]
+			id: "2B6A4A6E2B86BA68"
+			rewards: [{
+				id: "2B7C3D23A8B361C0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "35216BF3BFA57B95"
+				item: "alexsmobs:mosquito_larva"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.end_game.quest4.title}"
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F2E994C5099612A"]
+			description: ["{ftbquests.chapter.end_game.quest5.description1}"]
+			id: "1BABBA58C159FA7F"
+			rewards: [{
+				auto: "no_toast"
+				id: "42F53549EB27605E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "69E1291E132F5790"
+				item: "alexsmobs:capsid"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.end_game.quest5.title}"
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2B6A4A6E2B86BA68"
+				"1BABBA58C159FA7F"
+			]
+			description: ["{ftbquests.chapter.end_game.quest6.description1}"]
+			id: "178CBBAB037A6FE8"
+			rewards: [{
+				id: "0BBC2C56BB4987B1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "6EA60769A7038ABE"
+				item: "alexsmobs:mysterious_worm"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EB21A5EFC2F6EF2"]
+			id: "6F8318146F7B7166"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2B90809B74B04884"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 3
+					id: "7B782B97415226E7"
+					item: "majruszsdifficulty:golden_bandage"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "34BDD2096F0FC5AA"
+					table_id: 2616881584767302753L
+					type: "loot"
+				}
+				{
+					id: "3E2B599B8F79C764"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FAADA8ADECFD2A9"
+					table_id: 518173385962404322L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4860B7FE91D8AE7D"
+				item: "majruszsdifficulty:undead_army_treasure_bag"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.end_game.quest7.title}"
+			x: 19.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1F0F1E44E140025C"]
+			description: ["{ftbquests.chapter.end_game.quest8.description1}"]
+			icon: "cataclysm:necklace_of_the_desert"
+			id: "69211BF1D6204C54"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "6349FC862FF0ED01"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A4334935EDA3EDE"
+					table_id: 518173385962404322L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "403823BB710E502D"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest8.reward_4627487905085804589.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:crusader 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "43F57CC4F92B0700"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest8.reward_4896957355271063296.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5CBBBB635E229018"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest8.reward_6682140507589742616.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "18800BC0E3E80A01"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest8.reward_1765423977014495745.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1374CD7B212B7C63"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest8.reward_1401971312740236387.title}"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:necklace_of_the_desert"
+				id: "59330083685E8CCA"
+				title: "{ftbquests.chapter.end_game.quest8.task_+6427481657579572426.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6EB21A5EFC2F6EF2"]
+			description: [
+				"{ftbquests.chapter.end_game.quest9.description1}"
+				""
+				"{ftbquests.chapter.end_game.quest9.description2}"
+			]
+			icon: "artifacts:obsidian_skull"
+			id: "2F2E994C5099612A"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "66E4AD30B713233F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "2C60ED4B6F322B81"
+					item: "stalwart_dungeons:chorundum"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3F216864866F54FC"
+					item: "stalwart_dungeons:void_crystal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19EC1F4A0F0C869A"
+					table_id: 518173385962404322L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:berseker 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5B72F8A78D9737DA"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest9.reward_6589602603315181530.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:crusader 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "761987E01EE87961"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest9.reward_8509982367554238817.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranged 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "48B551EEC0EAED2E"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest9.reward_5239183827396128046.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "20C2D551E4FF3550"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest9.reward_2360683702406559056.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "323EF3DFD605B1CD"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.end_game.quest9.reward_3620599293146411469.title}"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					icon: "artifacts:obsidian_skull"
+					id: "4EF1F3E2E1EA7513"
+					title: "{ftbquests.chapter.end_game.quest9.task_+5688595960124044563.title}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
+					criterion: ""
+					disable_toast: true
+					id: "2690BA55A0EF7492"
+					secret: true
+					type: "advancement"
+				}
+			]
+			x: 13.0d
+			y: 1.0d
+		}
+	]
+	title: "{ftbquests.chapter.end_game.title}"
+}

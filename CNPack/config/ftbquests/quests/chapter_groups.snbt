@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "3172DA2E2FE4A37B", title: "{ftbquests.chapter_groups_3563150147110347643.title}" }
+		{ id: "52532F5E67425F1C", title: "{ftbquests.chapter_groups_5932137216682909468.title}" }
+		{ id: "04557421BF808B7D", title: "{ftbquests.chapter_groups_312283437467732861.title}" }
+	]
+}

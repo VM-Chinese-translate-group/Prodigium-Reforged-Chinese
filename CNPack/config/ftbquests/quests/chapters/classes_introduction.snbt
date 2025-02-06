@@ -1,0 +1,325 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "classes_introduction"
+	group: "52532F5E67425F1C"
+	icon: "minecraft:amethyst_cluster"
+	id: "59B899949D512C6D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.classes_introduction.quest1.description1}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest1.description2}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest1.description3}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest1.description4}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest1.description5}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest1.description6}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.classes_introduction.quest1.description7}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest1.description8}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest1.description9}"
+				"{ftbquests.chapter.classes_introduction.quest1.description10}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest1.description11}"
+				"{ftbquests.chapter.classes_introduction.quest1.description12}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.classes_introduction.quest1.description13}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest1.description14}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest1.description15}"
+				"{ftbquests.chapter.classes_introduction.quest1.description16}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest1.description17}"
+				"{ftbquests.chapter.classes_introduction.quest1.description18}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.classes_introduction.quest1.description19}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest1.description20}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest1.description21}"
+				"{ftbquests.chapter.classes_introduction.quest1.description22}"
+			]
+			id: "25D1B37A73FB9F53"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "39A33E029EA6C64D"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+				{
+					id: "1B5CE872603DFFB4"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.classes_introduction.quest1.subtitle}"
+			tasks: [{
+				id: "35CE5084B54682B4"
+				title: "{ftbquests.chapter.classes_introduction.quest1.task_+3877124860119777972.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.classes_introduction.quest1.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.classes_introduction.quest2.description1}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest2.description2}"
+			]
+			id: "78DE64EE0773BEF4"
+			secret: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3668223101538AEE"
+				title: "{ftbquests.chapter.classes_introduction.quest2.task_+3920421069497010926.title}"
+				type: "custom"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.classes_introduction.quest3.description1}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest3.description2}"
+			]
+			id: "44FCF260737D0785"
+			secret: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "stalwart_dungeons:golden_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5875FE1DE2AE640D"
+				title: "{ftbquests.chapter.classes_introduction.quest3.task_+6374280251923391501.title}"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.classes_introduction.quest4.description1}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest4.description2}"
+			]
+			id: "686B5BA848725480"
+			secret: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "prodigium:palladium_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "41F70500E273E37C"
+				title: "{ftbquests.chapter.classes_introduction.quest4.task_+4753273433070232444.title}"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.classes_introduction.quest5.description1}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest5.description2}"
+			]
+			id: "745FE062B66D6927"
+			secret: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "wizards:wizard_robe_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1038F0CA80FBD1CA"
+				title: "{ftbquests.chapter.classes_introduction.quest5.task_+1168948855840690634.title}"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.classes_introduction.quest6.description1}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest6.description2}"
+			]
+			id: "525D3BC989CF49D9"
+			secret: true
+			tasks: [{
+				icon: "runes:healing_stone"
+				id: "27BB11301CE03400"
+				title: "{ftbquests.chapter.classes_introduction.quest6.task_+2862900886464640000.title}"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25D1B37A73FB9F53"]
+			description: [
+				"{ftbquests.chapter.classes_introduction.quest7.description1}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest7.description2}"
+				""
+				"{ftbquests.chapter.classes_introduction.quest7.description3}"
+				"{ftbquests.chapter.classes_introduction.quest7.description4}"
+			]
+			hide: true
+			id: "0613243385C3015B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23132442C60CB815"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					id: "47343F384ADC19CE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "{ftbquests.chapter.classes_introduction.quest7.subtitle}"
+			tasks: [
+				{
+					id: "7C1794DE4816E2EC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "{ftbquests.chapter.classes_introduction.quest7.task_+8941779267580519148.title}"
+					type: "item"
+				}
+				{
+					id: "5EA1D5A61D3F1051"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:copper_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 5
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					title: "{ftbquests.chapter.classes_introduction.quest7.task_+6818966220247601233.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.classes_introduction.quest7.title}"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25D1B37A73FB9F53"]
+			description: ["{ftbquests.chapter.classes_introduction.quest8.description1}"]
+			hide: true
+			id: "412E0ADC86F7DE20"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11C30D4841F79407"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					id: "273004BF99CA6F34"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "{ftbquests.chapter.classes_introduction.quest8.subtitle}"
+			tasks: [{
+				id: "284806BB280CB458"
+				item: {
+					Count: 1
+					id: "prodigium:cobalt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "{ftbquests.chapter.classes_introduction.quest8.task_+2902577360740856920.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.classes_introduction.quest8.title}"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25D1B37A73FB9F53"]
+			description: ["{ftbquests.chapter.classes_introduction.quest9.description1}"]
+			hide: true
+			id: "525148F80B756AD6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6968123BE30175C0"
+					table_id: 8049615661713598272L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					id: "6C9FC85CD3243555"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "{ftbquests.chapter.classes_introduction.quest9.subtitle}"
+			tasks: [{
+				id: "41B052F3415EDC28"
+				item: {
+					Count: 1
+					id: "simpleores:mythril_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "{ftbquests.chapter.classes_introduction.quest9.task_+4733374413093657640.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.classes_introduction.quest9.title}"
+			x: -1.0d
+			y: 2.5d
+		}
+	]
+	title: "{ftbquests.chapter.classes_introduction.title}"
+}
