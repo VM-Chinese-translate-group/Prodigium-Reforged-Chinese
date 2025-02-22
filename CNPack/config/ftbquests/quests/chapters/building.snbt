@@ -53,7 +53,7 @@
 		}
 		{
 			dependencies: ["2559E2941C011938"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7CAA27F14BD611CA"
 			rewards: [{
 				auto: "no_toast"
@@ -109,7 +109,7 @@
 						value: "minecraft:doors"
 					}
 				}
-				title: "{ftbquests.chapter.building.quest4.task_+1684939609255255047.title}"
+				title: "{ftbquests.chapter.building.quest4.task_1684939609255255047.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.building.quest4.title}"
@@ -217,7 +217,7 @@
 						value: "minecraft:wooden_trapdoors"
 					}
 				}
-				title: "{ftbquests.chapter.building.quest7.task_+6647817745500427652.title}"
+				title: "{ftbquests.chapter.building.quest7.task_6647817745500427652.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.building.quest7.title}"
@@ -316,7 +316,7 @@
 						woodType: "oak"
 					}
 				}
-				title: "{ftbquests.chapter.building.quest9.task_+6623539189339188914.title}"
+				title: "{ftbquests.chapter.building.quest9.task_6623539189339188914.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.building.quest9.title}"
@@ -341,7 +341,7 @@
 						woodType: "oak"
 					}
 				}
-				title: "{ftbquests.chapter.building.quest10.task_+3695034766395679766.title}"
+				title: "{ftbquests.chapter.building.quest10.task_3695034766395679766.title}"
 				type: "item"
 			}]
 			x: 13.0d
@@ -365,7 +365,7 @@
 						woodType: "oak"
 					}
 				}
-				title: "{ftbquests.chapter.building.quest11.task_+5474193288096184553.title}"
+				title: "{ftbquests.chapter.building.quest11.task_5474193288096184553.title}"
 				type: "item"
 			}]
 			x: 12.0d
@@ -396,7 +396,7 @@
 						woodType: "oak"
 					}
 				}
-				title: "{ftbquests.chapter.building.quest12.task_+1912469249510354808.title}"
+				title: "{ftbquests.chapter.building.quest12.task_1912469249510354808.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.building.quest12.title}"
@@ -421,7 +421,7 @@
 						woodType: "oak"
 					}
 				}
-				title: "{ftbquests.chapter.building.quest13.task_+7795604878395575096.title}"
+				title: "{ftbquests.chapter.building.quest13.task_7795604878395575096.title}"
 				type: "item"
 			}]
 			x: 14.0d
@@ -445,7 +445,7 @@
 						woodType: "oak"
 					}
 				}
-				title: "{ftbquests.chapter.building.quest14.task_+8025970140815689498.title}"
+				title: "{ftbquests.chapter.building.quest14.task_8025970140815689498.title}"
 				type: "item"
 			}]
 			x: 13.0d
@@ -488,7 +488,7 @@
 						value: "valhelsia_structures:jars"
 					}
 				}
-				title: "{ftbquests.chapter.building.quest15.task_+8669409460953496472.title}"
+				title: "{ftbquests.chapter.building.quest15.task_8669409460953496472.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.building.quest15.title}"
@@ -613,7 +613,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.building.quest20.description1}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3279EADE357BB8E4"
 			rewards: [
 				{
@@ -639,7 +639,7 @@
 			y: -2.0d
 		}
 		{
-			hide: true
+			hide_until_deps_visible: true
 			id: "12663C238389EEAA"
 			rewards: [{
 				auto: "no_toast"
@@ -668,7 +668,7 @@
 			tasks: [{
 				id: "6865DD4D2D658D67"
 				item: "dummmmmmy:target_dummy"
-				title: "{ftbquests.chapter.building.quest22.task_+7522662076136131943.title}"
+				title: "{ftbquests.chapter.building.quest22.task_7522662076136131943.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.building.quest22.title}"

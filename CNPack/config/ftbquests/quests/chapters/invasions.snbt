@@ -60,7 +60,7 @@
 						}
 					}
 					id: "6419CD3A4E52DA5A"
-					title: "{ftbquests.chapter.invasions.quest1.task_+7213021928516409946.title}"
+					title: "{ftbquests.chapter.invasions.quest1.task_7213021928516409946.title}"
 					type: "custom"
 				}
 			]
@@ -104,7 +104,7 @@
 						}
 					}
 					id: "2221A3096897D237"
-					title: "{ftbquests.chapter.invasions.quest2.task_+2459426132325814839.title}"
+					title: "{ftbquests.chapter.invasions.quest2.task_2459426132325814839.title}"
 					type: "custom"
 				}
 			]
@@ -151,7 +151,7 @@
 						}
 					}
 					id: "15FAE2025D04EB4B"
-					title: "{ftbquests.chapter.invasions.quest3.task_+1583826718752566091.title}"
+					title: "{ftbquests.chapter.invasions.quest3.task_1583826718752566091.title}"
 					type: "custom"
 				}
 			]
@@ -170,7 +170,7 @@
 			tasks: [{
 				icon: "minecraft:barrel"
 				id: "7B2BFEEE8BC988B0"
-				title: "{ftbquests.chapter.invasions.quest4.task_+8875467791164606640.title}"
+				title: "{ftbquests.chapter.invasions.quest4.task_8875467791164606640.title}"
 				type: "custom"
 			}]
 			x: 1.5d
@@ -178,9 +178,9 @@
 		}
 		{
 			dependencies: ["4B1ABE1A8E60831E"]
-			hide: true
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			id: "0E96EE566942D684"
 			rewards: [
 				{
@@ -224,7 +224,7 @@
 						}
 					}
 					id: "4440E5DD615DD84B"
-					title: "{ftbquests.chapter.invasions.quest5.task_+4918183532072654923.title}"
+					title: "{ftbquests.chapter.invasions.quest5.task_4918183532072654923.title}"
 					type: "custom"
 				}
 			]
@@ -233,8 +233,8 @@
 		}
 		{
 			dependencies: ["0E96EE566942D684"]
-			hide: true
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			id: "3F7F2374AD6AE9BC"
 			rewards: [
 				{
@@ -279,7 +279,7 @@
 						}
 					}
 					id: "37E7DE37AE6E8D6F"
-					title: "{ftbquests.chapter.invasions.quest6.task_+4028432722437246319.title}"
+					title: "{ftbquests.chapter.invasions.quest6.task_4028432722437246319.title}"
 					type: "custom"
 				}
 			]
@@ -288,9 +288,9 @@
 		}
 		{
 			dependencies: ["3F7F2374AD6AE9BC"]
-			hide: true
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			id: "3ECF0082B62C4AB8"
 			rewards: [
 				{
@@ -328,7 +328,7 @@
 						}
 					}
 					id: "01590DC84238B719"
-					title: "{ftbquests.chapter.invasions.quest7.task_+97124020720809753.title}"
+					title: "{ftbquests.chapter.invasions.quest7.task_97124020720809753.title}"
 					type: "custom"
 				}
 			]
@@ -342,7 +342,7 @@
 			tasks: [{
 				icon: "minecraft:red_banner"
 				id: "40C55EE58B543530"
-				title: "{ftbquests.chapter.invasions.quest8.task_+4667240928817460528.title}"
+				title: "{ftbquests.chapter.invasions.quest8.task_4667240928817460528.title}"
 				type: "custom"
 			}]
 			x: -3.0d

@@ -556,7 +556,7 @@
 						value: "doggytalents:treats"
 					}
 				}
-				title: "{ftbquests.chapter.pve.quest13.task_+5063368550940166362.title}"
+				title: "{ftbquests.chapter.pve.quest13.task_5063368550940166362.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.pve.quest13.title}"
@@ -594,7 +594,7 @@
 					entity: "friendsandfoes:mauler"
 					icon: "alexsmobs:shark_tooth"
 					id: "4CC9504C0E8DEB38"
-					title: "{ftbquests.chapter.pve.quest15.task_+5533041904793283384.title}"
+					title: "{ftbquests.chapter.pve.quest15.task_5533041904793283384.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -602,7 +602,7 @@
 					entity: "friendsandfoes:iceologer"
 					icon: "projectvibrantjourneys:ice_chunks"
 					id: "7F82A2D47AE487FB"
-					title: "{ftbquests.chapter.pve.quest15.task_+9188085223267796987.title}"
+					title: "{ftbquests.chapter.pve.quest15.task_9188085223267796987.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -616,7 +616,7 @@
 						}
 					}
 					id: "3FB32584FEEE72A8"
-					title: "{ftbquests.chapter.pve.quest15.task_+4590053698363617960.title}"
+					title: "{ftbquests.chapter.pve.quest15.task_4590053698363617960.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -630,7 +630,7 @@
 						}
 					}
 					id: "483CC567A59BA80D"
-					title: "{ftbquests.chapter.pve.quest15.task_+5205252318284195853.title}"
+					title: "{ftbquests.chapter.pve.quest15.task_5205252318284195853.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -658,7 +658,7 @@
 						}
 					}
 					id: "0A016FF34122B636"
-					title: "{ftbquests.chapter.pve.quest16.task_+720980505916519990.title}"
+					title: "{ftbquests.chapter.pve.quest16.task_720980505916519990.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -666,7 +666,7 @@
 					entity: "stalwart_dungeons:incomplete_wither"
 					icon: "wstweaks:fragment"
 					id: "0C88F9AB77699C08"
-					title: "{ftbquests.chapter.pve.quest16.task_+903246240125918216.title}"
+					title: "{ftbquests.chapter.pve.quest16.task_903246240125918216.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -674,7 +674,7 @@
 					entity: "stalwart_dungeons:giddy_blaze"
 					icon: "minecraft:blaze_rod"
 					id: "3B3B040B87C4206C"
-					title: "{ftbquests.chapter.pve.quest16.task_+4268009519432605804.title}"
+					title: "{ftbquests.chapter.pve.quest16.task_4268009519432605804.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -682,7 +682,7 @@
 					entity: "stalwart_dungeons:propulk"
 					icon: "minecraft:shulker_shell"
 					id: "42F5E5E1C3F6BDC9"
-					title: "{ftbquests.chapter.pve.quest16.task_+4825015333615484361.title}"
+					title: "{ftbquests.chapter.pve.quest16.task_4825015333615484361.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -704,7 +704,7 @@
 					entity: "bygonenether:piglin_hunter"
 					icon: "minecraft:gold_nugget"
 					id: "6378ABF199129626"
-					title: "{ftbquests.chapter.pve.quest17.task_+7167667861103744550.title}"
+					title: "{ftbquests.chapter.pve.quest17.task_7167667861103744550.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -712,7 +712,7 @@
 					entity: "bygonenether:piglin_prisoner"
 					icon: "minecraft:gold_ingot"
 					id: "336D4D27B4C32BD2"
-					title: "{ftbquests.chapter.pve.quest17.task_+3705702901327539154.title}"
+					title: "{ftbquests.chapter.pve.quest17.task_3705702901327539154.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -720,7 +720,7 @@
 					entity: "bygonenether:warped_enderman"
 					icon: "bygonenether:warped_ender_pearl"
 					id: "49E958FB4EE5086F"
-					title: "{ftbquests.chapter.pve.quest17.task_+5325885870725990511.title}"
+					title: "{ftbquests.chapter.pve.quest17.task_5325885870725990511.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -728,7 +728,7 @@
 					entity: "bygonenether:wex"
 					icon: "born_in_chaos_v1:ethereal_spirit"
 					id: "578045D467CC5FC8"
-					title: "{ftbquests.chapter.pve.quest17.task_+6305116256895524808.title}"
+					title: "{ftbquests.chapter.pve.quest17.task_6305116256895524808.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -736,7 +736,7 @@
 					entity: "bygonenether:wraither"
 					icon: "wstweaks:fragment"
 					id: "1E0A3DF3C331A858"
-					title: "{ftbquests.chapter.pve.quest17.task_+2164610688066103384.title}"
+					title: "{ftbquests.chapter.pve.quest17.task_2164610688066103384.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -750,7 +750,7 @@
 						}
 					}
 					id: "5EFAF1559A41B347"
-					title: "{ftbquests.chapter.pve.quest17.task_+6844047933705401159.title}"
+					title: "{ftbquests.chapter.pve.quest17.task_6844047933705401159.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -771,7 +771,7 @@
 				entity: "artifacts:mimic"
 				icon: "minecraft:chest"
 				id: "48DE389B46519E26"
-				title: "{ftbquests.chapter.pve.quest18.task_+5250696455111417382.title}"
+				title: "{ftbquests.chapter.pve.quest18.task_5250696455111417382.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -823,7 +823,7 @@
 				entity: "majruszsdifficulty:cursed_armor"
 				icon: "quark:oak_chest"
 				id: "5C34BD08F52CB1CE"
-				title: "{ftbquests.chapter.pve.quest20.task_+6644143196449059278.title}"
+				title: "{ftbquests.chapter.pve.quest20.task_6644143196449059278.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -853,7 +853,7 @@
 						value: "curios:accessory"
 					}
 				}
-				title: "{ftbquests.chapter.pve.quest21.task_+6877748279818234362.title}"
+				title: "{ftbquests.chapter.pve.quest21.task_6877748279818234362.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.pve.quest21.title}"

@@ -52,7 +52,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.crusader.quest1.task_+4658598363169543133.title}"
+					title: "{ftbquests.chapter.crusader.quest1.task_4658598363169543133.title}"
 					type: "item"
 				}
 				{
@@ -64,7 +64,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.crusader.quest1.task_+674534088701725111.title}"
+					title: "{ftbquests.chapter.crusader.quest1.task_674534088701725111.title}"
 					type: "item"
 				}
 			]
@@ -74,7 +74,7 @@
 		}
 		{
 			dependencies: ["4295FD014E3D5800"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3A908ED8568C4279"
 			rewards: [
 				{
@@ -101,7 +101,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.crusader.quest2.task_+847463969189187899.title}"
+					title: "{ftbquests.chapter.crusader.quest2.task_847463969189187899.title}"
 					type: "item"
 				}
 				{
@@ -113,7 +113,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.crusader.quest2.task_+5917162120130669185.title}"
+					title: "{ftbquests.chapter.crusader.quest2.task_5917162120130669185.title}"
 					type: "item"
 				}
 			]
@@ -123,7 +123,7 @@
 		}
 		{
 			dependencies: ["3A908ED8568C4279"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "17E89E220CD2DACA"
 			rewards: [
 				{
@@ -149,7 +149,7 @@
 						Damage: 0
 					}
 				}
-				title: "{ftbquests.chapter.crusader.quest3.task_+7607606432479319524.title}"
+				title: "{ftbquests.chapter.crusader.quest3.task_7607606432479319524.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.crusader.quest3.title}"
@@ -158,7 +158,7 @@
 		}
 		{
 			dependencies: ["4295FD014E3D5800"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "470ECEF309E513B7"
 			rewards: [{
 				auto: "no_toast"
@@ -183,7 +183,7 @@
 		}
 		{
 			dependencies: ["4295FD014E3D5800"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "30D9026F9DEED078"
 			rewards: [{
 				auto: "no_toast"

@@ -225,7 +225,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6F46DA0CE7915EA5"
 			rewards: [{
 				auto: "no_toast"
@@ -238,7 +238,7 @@
 				criterion: ""
 				icon: "minecraft:nether_bricks"
 				id: "58C5DD2A2386D6FA"
-				title: "{ftbquests.chapter.exploration.quest6.task_+6396762018804061946.title}"
+				title: "{ftbquests.chapter.exploration.quest6.task_6396762018804061946.title}"
 				type: "advancement"
 			}]
 			x: -0.5d
@@ -246,7 +246,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "40C9AFC1329502B4"
 			rewards: [{
 				auto: "no_toast"
@@ -259,7 +259,7 @@
 				criterion: ""
 				icon: "minecraft:nether_gold_ore"
 				id: "23B94FF0A2227367"
-				title: "{ftbquests.chapter.exploration.quest7.task_+2574176556949861223.title}"
+				title: "{ftbquests.chapter.exploration.quest7.task_2574176556949861223.title}"
 				type: "advancement"
 			}]
 			x: 2.0d
@@ -267,7 +267,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3E5345FF29F8F505"
 			rewards: [{
 				auto: "no_toast"
@@ -281,7 +281,7 @@
 				criterion: ""
 				icon: "minecraft:netherrack"
 				id: "52EA2A28657B7423"
-				title: "{ftbquests.chapter.exploration.quest8.task_+5974634208650032163.title}"
+				title: "{ftbquests.chapter.exploration.quest8.task_5974634208650032163.title}"
 				type: "advancement"
 			}]
 			x: 0.75d
@@ -289,7 +289,7 @@
 		}
 		{
 			dependencies: ["294BCF112F074116"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "68B0C1B1996D608C"
 			rewards: [{
 				auto: "no_toast"
@@ -302,7 +302,7 @@
 				criterion: ""
 				icon: "minecraft:ender_pearl"
 				id: "3C67D1882D620555"
-				title: "{ftbquests.chapter.exploration.quest9.task_+4352677947684029781.title}"
+				title: "{ftbquests.chapter.exploration.quest9.task_4352677947684029781.title}"
 				type: "advancement"
 			}]
 			x: 9.5d
@@ -340,7 +340,7 @@
 				criterion: ""
 				icon: "minecraft:mangrove_roots"
 				id: "712EDC0F4C7EDF29"
-				title: "{ftbquests.chapter.exploration.quest10.task_+8155697933480550185.title}"
+				title: "{ftbquests.chapter.exploration.quest10.task_8155697933480550185.title}"
 				type: "advancement"
 			}]
 			x: 3.75d
@@ -457,7 +457,7 @@
 		}
 		{
 			dependencies: ["294BCF112F074116"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "621E46F3A4C10A15"
 			rewards: [{
 				id: "5F93208E879FD2DF"
@@ -476,7 +476,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1C1B9CF465CC8188"
 			rewards: [{
 				auto: "no_toast"
@@ -488,7 +488,7 @@
 				advancement: "dungeons_plus:nether/find_soul_prison"
 				criterion: ""
 				id: "7E16AC7305DE0B00"
-				title: "{ftbquests.chapter.exploration.quest17.task_+9085638908286208768.title}"
+				title: "{ftbquests.chapter.exploration.quest17.task_9085638908286208768.title}"
 				type: "advancement"
 			}]
 			x: 1.5d
@@ -496,7 +496,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4381DD6F74983CD1"
 			rewards: [{
 				auto: "no_toast"
@@ -508,7 +508,7 @@
 				advancement: "bygonenether:catacomb"
 				criterion: ""
 				id: "48CD8F99D4830060"
-				title: "{ftbquests.chapter.exploration.quest18.task_+5246007031814619232.title}"
+				title: "{ftbquests.chapter.exploration.quest18.task_5246007031814619232.title}"
 				type: "advancement"
 			}]
 			x: 0.0d
@@ -516,7 +516,7 @@
 		}
 		{
 			dependencies: ["294BCF112F074116"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "681C905B9C33D28B"
 			rewards: [{
 				id: "6636E756508C17EB"
@@ -660,7 +660,7 @@
 		{
 			dependencies: ["261166A86CFF91F6"]
 			description: ["{ftbquests.chapter.exploration.quest26.description1}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "539D9A86161D23FF"
 			rewards: [
 				{
@@ -686,7 +686,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4214ACE6E3469233"
 			rewards: [{
 				auto: "no_toast"
@@ -698,7 +698,7 @@
 				icon: "minecraft:nether_brick"
 				id: "1E9499BABC565A07"
 				structure: "bygonenether:citadel"
-				title: "{ftbquests.chapter.exploration.quest27.task_+2203555144993757703.title}"
+				title: "{ftbquests.chapter.exploration.quest27.task_2203555144993757703.title}"
 				type: "structure"
 			}]
 			x: -1.0d
@@ -706,7 +706,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3D7D11D85D2C13A5"
 			rewards: [
 				{
@@ -726,7 +726,7 @@
 				icon: "piglinproliferation:piglin_alchemist_head"
 				id: "13FF8EEB1FECA869"
 				structure: "bygonenether:piglin_manor"
-				title: "{ftbquests.chapter.exploration.quest28.task_+1441027546285910121.title}"
+				title: "{ftbquests.chapter.exploration.quest28.task_1441027546285910121.title}"
 				type: "structure"
 			}]
 			x: 2.5d
@@ -734,7 +734,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4174FCEC1DD1D86E"
 			rewards: [{
 				auto: "no_toast"
@@ -746,7 +746,7 @@
 				biome: "gardens_of_the_dead:soulblight_forest"
 				icon: "gardens_of_the_dead:soulblight_fungus"
 				id: "19E7859D50DCF8A5"
-				title: "{ftbquests.chapter.exploration.quest29.task_+1866607481281378469.title}"
+				title: "{ftbquests.chapter.exploration.quest29.task_1866607481281378469.title}"
 				type: "biome"
 			}]
 			x: 1.5d
@@ -754,7 +754,7 @@
 		}
 		{
 			dependencies: ["0F2E50059566AEBE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "54998B4FD08FD7EA"
 			rewards: [{
 				auto: "no_toast"
@@ -766,7 +766,7 @@
 				biome: "gardens_of_the_dead:whistling_woods"
 				icon: "gardens_of_the_dead:whistlecane"
 				id: "401A2FDAB6C26FD5"
-				title: "{ftbquests.chapter.exploration.quest30.task_+4619056984237436885.title}"
+				title: "{ftbquests.chapter.exploration.quest30.task_4619056984237436885.title}"
 				type: "biome"
 			}]
 			x: 0.0d
@@ -785,7 +785,7 @@
 				dimension: "aether:the_aether"
 				icon: "aether:aether_portal_frame"
 				id: "3334EAE72120B7B1"
-				title: "{ftbquests.chapter.exploration.quest31.task_+3689832273137416113.title}"
+				title: "{ftbquests.chapter.exploration.quest31.task_3689832273137416113.title}"
 				type: "dimension"
 			}]
 			x: 3.0d
@@ -793,7 +793,7 @@
 		}
 		{
 			dependencies: ["294BCF112F074116"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "400B087189CA14AE"
 			rewards: [
 				{
@@ -826,7 +826,7 @@
 		}
 		{
 			dependencies: ["400B087189CA14AE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6F86A910DA0F6330"
 			rewards: [
 				{
@@ -860,7 +860,7 @@
 		{
 			dependencies: ["406879C4C9D7B0FD"]
 			description: ["{ftbquests.chapter.exploration.quest34.description1}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "62D948E2D36892DE"
 			rewards: [{
 				auto: "no_toast"
@@ -879,7 +879,7 @@
 		}
 		{
 			dependencies: ["406879C4C9D7B0FD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4B4E29EFC92EC3E3"
 			rewards: [{
 				auto: "no_toast"
@@ -899,7 +899,7 @@
 		}
 		{
 			dependencies: ["406879C4C9D7B0FD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "272015D864A06FCE"
 			rewards: [{
 				auto: "no_toast"

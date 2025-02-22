@@ -52,7 +52,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.melee.quest1.task_+6933104656833921357.title}"
+					title: "{ftbquests.chapter.melee.quest1.task_6933104656833921357.title}"
 					type: "item"
 				}
 				{
@@ -64,7 +64,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.melee.quest1.task_+5272026283672012136.title}"
+					title: "{ftbquests.chapter.melee.quest1.task_5272026283672012136.title}"
 					type: "item"
 				}
 			]
@@ -76,7 +76,7 @@
 			dependencies: ["50E838001D06D62B"]
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.melee.quest2.description1}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "01C7F36A07D993DB"
 			min_required_tasks: 1
 			rewards: [
@@ -104,7 +104,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.melee.quest2.task_+1816260601364520575.title}"
+					title: "{ftbquests.chapter.melee.quest2.task_1816260601364520575.title}"
 					type: "item"
 				}
 				{
@@ -116,7 +116,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.melee.quest2.task_+8723770437792631510.title}"
+					title: "{ftbquests.chapter.melee.quest2.task_8723770437792631510.title}"
 					type: "item"
 				}
 			]
@@ -127,7 +127,7 @@
 		{
 			dependencies: ["01C7F36A07D993DB"]
 			description: ["{ftbquests.chapter.melee.quest3.description1}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "39E4AEC53761A7A1"
 			rewards: [
 				{
@@ -154,7 +154,7 @@
 						Damage: 0
 					}
 				}
-				title: "{ftbquests.chapter.melee.quest3.task_+4389601485723929465.title}"
+				title: "{ftbquests.chapter.melee.quest3.task_4389601485723929465.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.melee.quest3.title}"
@@ -163,7 +163,7 @@
 		}
 		{
 			dependencies: ["50E838001D06D62B"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6941F5D15A68E8F3"
 			rewards: [{
 				auto: "no_toast"
@@ -188,7 +188,7 @@
 		}
 		{
 			dependencies: ["50E838001D06D62B"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0195CA9DA04CF441"
 			rewards: [{
 				auto: "no_toast"
@@ -215,7 +215,7 @@
 			dependencies: ["50E838001D06D62B"]
 			dependency_requirement: "all_started"
 			description: ["{ftbquests.chapter.melee.quest6.description1}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0AE464C7E2B6B92D"
 			rewards: [
 				{
@@ -247,7 +247,7 @@
 		}
 		{
 			dependencies: ["0AE464C7E2B6B92D"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "172CE6EB436255BA"
 			rewards: [{
 				auto: "no_toast"

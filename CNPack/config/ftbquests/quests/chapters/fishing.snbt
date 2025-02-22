@@ -155,7 +155,7 @@
 				criterion: ""
 				icon: "aquaculture:blackfish"
 				id: "401AE69B086678FE"
-				title: "{ftbquests.chapter.fishing.quest4.task_+4619257921357117694.title}"
+				title: "{ftbquests.chapter.fishing.quest4.task_4619257921357117694.title}"
 				type: "advancement"
 			}]
 			x: 3.5d

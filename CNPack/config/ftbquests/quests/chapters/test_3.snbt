@@ -126,7 +126,7 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "{ftbquests.chapter.test_3.quest1.task_+7299448715507239051.title}"
+				title: "{ftbquests.chapter.test_3.quest1.task_7299448715507239051.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.test_3.quest1.title}"
@@ -189,7 +189,7 @@
 					}
 				}
 				id: "502CBC7EEFC802A9"
-				title: "{ftbquests.chapter.test_3.quest2.task_+5777199675384267433.title}"
+				title: "{ftbquests.chapter.test_3.quest2.task_5777199675384267433.title}"
 				type: "dimension"
 			}]
 			x: 23.5d
@@ -292,7 +292,7 @@
 				entity: "terrawhips_and_more:thekingslime"
 				icon: "terrawhips_and_more:slime_crown"
 				id: "1D39AC7F95C73EA9"
-				title: "{ftbquests.chapter.test_3.quest3.task_+2105903964746104489.title}"
+				title: "{ftbquests.chapter.test_3.quest3.task_2105903964746104489.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -350,7 +350,7 @@
 			tasks: [{
 				id: "060DEF4F27A9DD6E"
 				item: "majruszsdifficulty:undead_army_treasure_bag"
-				title: "{ftbquests.chapter.test_3.quest4.task_+436267862171704686.title}"
+				title: "{ftbquests.chapter.test_3.quest4.task_436267862171704686.title}"
 				type: "item"
 			}]
 			x: 5.0d
@@ -429,7 +429,7 @@
 						}
 					}
 					id: "00A12CB227DDE76F"
-					title: "{ftbquests.chapter.test_3.quest5.task_+45366614935070575.title}"
+					title: "{ftbquests.chapter.test_3.quest5.task_45366614935070575.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -561,7 +561,7 @@
 					}
 				}
 				id: "2F7F6325F65627FB"
-				title: "{ftbquests.chapter.test_3.quest6.task_+3422563256522647547.title}"
+				title: "{ftbquests.chapter.test_3.quest6.task_3422563256522647547.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -610,7 +610,7 @@
 				"{ftbquests.chapter.test_3.quest8.description3}"
 				"{ftbquests.chapter.test_3.quest8.description4}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0E23B5BD98AD2A6F"
 			min_required_tasks: 1
 			rewards: [{
@@ -641,7 +641,7 @@
 				"{ftbquests.chapter.test_3.quest9.description1}"
 				"{ftbquests.chapter.test_3.quest9.description2}"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "67833F35B83C9FE8"
 			min_required_tasks: 1
 			rewards: [{
@@ -668,7 +668,7 @@
 		}
 		{
 			dependencies: ["44CABC14818B1DFB"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4D723F25ABA40671"
 			rewards: [{
 				auto: "no_toast"
@@ -757,7 +757,7 @@
 			tasks: [{
 				id: "3906C757FBDFCA5E"
 				item: "sophisticatedbackpacks:backpack"
-				title: "{ftbquests.chapter.test_3.quest12.task_+4109190890723986014.title}"
+				title: "{ftbquests.chapter.test_3.quest12.task_4109190890723986014.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.test_3.quest12.title}"
@@ -896,7 +896,7 @@
 		{
 			dependencies: ["509DBFC46966C6EF"]
 			description: ["{ftbquests.chapter.test_3.quest15.description1}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "03F464A4772CDB9F"
 			rewards: [
 				{
@@ -1006,7 +1006,7 @@
 					entity: "irons_spellbooks:dead_king"
 					icon: "minecraft:skeleton_skull"
 					id: "650290681E34BC76"
-					title: "{ftbquests.chapter.test_3.quest16.task_+7278538724641913974.title}"
+					title: "{ftbquests.chapter.test_3.quest16.task_7278538724641913974.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -1025,7 +1025,7 @@
 		{
 			dependencies: ["4D723F25ABA40671"]
 			description: ["{ftbquests.chapter.test_3.quest17.description1}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2851394B90D1E773"
 			rewards: [
 				{
@@ -1056,8 +1056,8 @@
 				"{ftbquests.chapter.test_3.quest18.description1}"
 				"{ftbquests.chapter.test_3.quest18.description2}"
 			]
-			hide: true
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			id: "313D6112DC7FE209"
 			rewards: [
 				{
@@ -1085,7 +1085,7 @@
 		}
 		{
 			dependencies: ["313D6112DC7FE209"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "21462A616D86CFD6"
 			rewards: [
 				{
@@ -1112,7 +1112,7 @@
 		}
 		{
 			dependencies: ["21462A616D86CFD6"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1916F155816608D5"
 			rewards: [
 				{
@@ -1187,7 +1187,7 @@
 						}
 					}
 					id: "0B529EF55A352EF6"
-					title: "{ftbquests.chapter.test_3.quest21.task_+815889259125092086.title}"
+					title: "{ftbquests.chapter.test_3.quest21.task_815889259125092086.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -1223,7 +1223,7 @@
 				days: 3
 				disable_toast: true
 				id: "090702E16837BCE0"
-				title: "{ftbquests.chapter.test_3.quest22.task_+650491838317706464.title}"
+				title: "{ftbquests.chapter.test_3.quest22.task_650491838317706464.title}"
 				type: "questsadditions:days"
 			}]
 			x: 6.5d

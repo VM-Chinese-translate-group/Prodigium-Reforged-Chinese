@@ -129,7 +129,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.cleric.quest3.task_+6135359760495723245.title}"
+					title: "{ftbquests.chapter.cleric.quest3.task_6135359760495723245.title}"
 					type: "item"
 				}
 				{
@@ -141,7 +141,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.cleric.quest3.task_+7219416641170652981.title}"
+					title: "{ftbquests.chapter.cleric.quest3.task_7219416641170652981.title}"
 					type: "item"
 				}
 			]
@@ -151,7 +151,7 @@
 		}
 		{
 			dependencies: ["2D2E7F73862AF301"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0F8B2C405921526F"
 			min_required_tasks: 1
 			rewards: [
@@ -185,7 +185,7 @@
 						Damage: 0
 					}
 				}
-				title: "{ftbquests.chapter.cleric.quest4.task_+1930990188025703597.title}"
+				title: "{ftbquests.chapter.cleric.quest4.task_1930990188025703597.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.cleric.quest4.title}"
@@ -308,7 +308,7 @@
 		}
 		{
 			dependencies: ["4C3468FE8D873B68"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7E667B478AC9D11C"
 			rewards: [{
 				auto: "no_toast"
@@ -369,7 +369,7 @@
 		{
 			dependencies: ["1A9AB70D43851B41"]
 			description: ["{ftbquests.chapter.cleric.quest10.description1}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2D2E7F73862AF301"
 			rewards: [
 				{
@@ -402,7 +402,7 @@
 						Damage: 0
 					}
 				}
-				title: "{ftbquests.chapter.cleric.quest10.task_+7440336276461745701.title}"
+				title: "{ftbquests.chapter.cleric.quest10.task_7440336276461745701.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.cleric.quest10.title}"

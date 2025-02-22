@@ -52,7 +52,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.ranged.quest1.task_+174440446888588389.title}"
+					title: "{ftbquests.chapter.ranged.quest1.task_174440446888588389.title}"
 					type: "item"
 				}
 				{
@@ -64,7 +64,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.ranged.quest1.task_+441904561102066161.title}"
+					title: "{ftbquests.chapter.ranged.quest1.task_441904561102066161.title}"
 					type: "item"
 				}
 				{
@@ -76,7 +76,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.ranged.quest1.task_+5356836154812236414.title}"
+					title: "{ftbquests.chapter.ranged.quest1.task_5356836154812236414.title}"
 					type: "item"
 				}
 			]
@@ -86,7 +86,7 @@
 		}
 		{
 			dependencies: ["0EEBAEA6C5EE0454"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5FEC8279A8C2E462"
 			rewards: [{
 				auto: "no_toast"
@@ -299,7 +299,7 @@
 		}
 		{
 			dependencies: ["5FEC8279A8C2E462"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5DECF19C4A20F805"
 			rewards: [{
 				auto: "no_toast"
@@ -349,7 +349,7 @@
 		{
 			dependencies: ["0EEBAEA6C5EE0454"]
 			description: ["{ftbquests.chapter.ranged.quest16.description1}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4A96E3EADCF0C191"
 			rewards: [
 				{
@@ -376,7 +376,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.ranged.quest16.task_+1733908442533850937.title}"
+					title: "{ftbquests.chapter.ranged.quest16.task_1733908442533850937.title}"
 					type: "item"
 				}
 				{
@@ -388,7 +388,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.ranged.quest16.task_+3503995653524487242.title}"
+					title: "{ftbquests.chapter.ranged.quest16.task_3503995653524487242.title}"
 					type: "item"
 				}
 			]
@@ -399,7 +399,7 @@
 		{
 			dependencies: ["4A96E3EADCF0C191"]
 			description: ["{ftbquests.chapter.ranged.quest17.description1}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5F83D1C077915E7E"
 			rewards: [
 				{
@@ -425,7 +425,7 @@
 						Damage: 0
 					}
 				}
-				title: "{ftbquests.chapter.ranged.quest17.task_+1038772285667160153.title}"
+				title: "{ftbquests.chapter.ranged.quest17.task_1038772285667160153.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.ranged.quest17.title}"
@@ -550,8 +550,12 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["774BCB593AAFAA33"]
+			dependencies: [
+				"774BCB593AAFAA33"
+				"0EEBAEA6C5EE0454"
+			]
 			description: ["{ftbquests.chapter.ranged.quest23.description1}"]
+			hide_until_deps_visible: true
 			id: "42208C5158426B53"
 			rewards: [{
 				exclude_from_claim_all: true

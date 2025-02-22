@@ -135,7 +135,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.mage.quest3.task_+7653281484189859530.title}"
+					title: "{ftbquests.chapter.mage.quest3.task_7653281484189859530.title}"
 					type: "item"
 				}
 				{
@@ -147,7 +147,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.mage.quest3.task_+5709411366853594048.title}"
+					title: "{ftbquests.chapter.mage.quest3.task_5709411366853594048.title}"
 					type: "item"
 				}
 			]
@@ -157,7 +157,7 @@
 		}
 		{
 			dependencies: ["32C900436B8BA216"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6AEDFC7887701A98"
 			min_required_tasks: 1
 			rewards: [
@@ -192,7 +192,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.mage.quest4.task_+3898690135648689825.title}"
+					title: "{ftbquests.chapter.mage.quest4.task_3898690135648689825.title}"
 					type: "item"
 				}
 				{
@@ -204,7 +204,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.mage.quest4.task_+3290673226542955284.title}"
+					title: "{ftbquests.chapter.mage.quest4.task_3290673226542955284.title}"
 					type: "item"
 				}
 				{
@@ -216,7 +216,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.mage.quest4.task_+1615813188659785661.title}"
+					title: "{ftbquests.chapter.mage.quest4.task_1615813188659785661.title}"
 					type: "item"
 				}
 				{
@@ -228,7 +228,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.mage.quest4.task_+6832968821564250128.title}"
+					title: "{ftbquests.chapter.mage.quest4.task_6832968821564250128.title}"
 					type: "item"
 				}
 				{
@@ -240,7 +240,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.mage.quest4.task_+8451510960172247194.title}"
+					title: "{ftbquests.chapter.mage.quest4.task_8451510960172247194.title}"
 					type: "item"
 				}
 				{
@@ -252,7 +252,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.mage.quest4.task_+582408948826101699.title}"
+					title: "{ftbquests.chapter.mage.quest4.task_582408948826101699.title}"
 					type: "item"
 				}
 				{
@@ -264,7 +264,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.mage.quest4.task_+5114900352921679520.title}"
+					title: "{ftbquests.chapter.mage.quest4.task_5114900352921679520.title}"
 					type: "item"
 				}
 			]
@@ -387,7 +387,7 @@
 		}
 		{
 			dependencies: ["297C650C9443F6AC"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "457F3B09A012EC52"
 			rewards: [{
 				auto: "no_toast"
@@ -416,7 +416,7 @@
 		}
 		{
 			dependencies: ["297C650C9443F6AC"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "14858556B512FCA1"
 			rewards: [{
 				auto: "no_toast"
@@ -449,7 +449,7 @@
 				"745FE062B66D6927"
 			]
 			description: ["{ftbquests.chapter.mage.quest10.description1}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1F264C3D08A2BC5E"
 			rewards: [
 				{
@@ -477,7 +477,7 @@
 		}
 		{
 			dependencies: ["3E4F3F3F0402D036"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2244361598A4C203"
 			rewards: [{
 				auto: "no_toast"
@@ -497,7 +497,7 @@
 		{
 			dependencies: ["2C81ED5255847C86"]
 			description: ["{ftbquests.chapter.mage.quest12.description1}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "32C900436B8BA216"
 			rewards: [
 				{
@@ -530,7 +530,7 @@
 						Damage: 0
 					}
 				}
-				title: "{ftbquests.chapter.mage.quest12.task_+1957165537468182370.title}"
+				title: "{ftbquests.chapter.mage.quest12.task_1957165537468182370.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.mage.quest12.title}"

@@ -36,95 +36,9 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["178CBBAB037A6FE8"]
-			description: ["{ftbquests.chapter.end_game.quest1.description1}"]
-			id: "1F0F1E44E140025C"
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "23631A059B79D99C"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5C0B9B82F1FBEF61"
-					table_id: 518173385962404322L
-					type: "loot"
-				}
-				{
-					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berseker 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "2934B8A5346AFAA9"
-					silent: true
-					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest1.reward_2969201074032540329.title}"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:crusader 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "520EE244D800BA9D"
-					silent: true
-					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest1.reward_5912912146093619869.title}"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranged 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "52D7898E9616183C"
-					silent: true
-					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest1.reward_5969391076599273532.title}"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:wizard 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "05EF9A1507EC4A40"
-					silent: true
-					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest1.reward_427729904741403200.title}"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:cleric 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "06818C947276DCE0"
-					silent: true
-					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest1.reward_468810405426683104.title}"
-					type: "command"
-				}
-			]
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				entity: "alexsmobs:void_worm"
-				icon: "alexsmobs:void_worm_eye"
-				id: "117BFAC8B3DE0C43"
-				title: "{ftbquests.chapter.end_game.quest1.task_+1259876260698262595.title}"
-				type: "kill"
-				value: 1L
-			}]
-			x: 17.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["4CAE385F554764AE"]
-			description: ["{ftbquests.chapter.end_game.quest2.description1}"]
-			hide: false
+			description: ["{ftbquests.chapter.end_game.quest1.description1}"]
+			hide_until_deps_visible: false
 			id: "499AD4E69B48B516"
 			rewards: [
 				{
@@ -153,7 +67,7 @@
 					id: "7E3DDA423222169B"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest2.reward_9096666800202061467.title}"
+					title: "{ftbquests.chapter.end_game.quest1.reward_9096666800202061467.title}"
 					type: "command"
 				}
 				{
@@ -164,7 +78,7 @@
 					id: "2F5A7305FD7F8E56"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest2.reward_3412166137251597910.title}"
+					title: "{ftbquests.chapter.end_game.quest1.reward_3412166137251597910.title}"
 					type: "command"
 				}
 				{
@@ -175,7 +89,7 @@
 					id: "6D07CA881297E3FC"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest2.reward_7856470760747426812.title}"
+					title: "{ftbquests.chapter.end_game.quest1.reward_7856470760747426812.title}"
 					type: "command"
 				}
 				{
@@ -186,7 +100,7 @@
 					id: "5CB2313CD63C31BF"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest2.reward_6679455334705934783.title}"
+					title: "{ftbquests.chapter.end_game.quest1.reward_6679455334705934783.title}"
 					type: "command"
 				}
 				{
@@ -197,7 +111,7 @@
 					id: "206EEF428E60886A"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest2.reward_2337068325787437162.title}"
+					title: "{ftbquests.chapter.end_game.quest1.reward_2337068325787437162.title}"
 					type: "command"
 				}
 			]
@@ -207,7 +121,7 @@
 				entity: "cataclysm:ender_guardian"
 				icon: "majruszsdifficulty:enderium_shard"
 				id: "04D5EB5486245C39"
-				title: "{ftbquests.chapter.end_game.quest2.task_+348443294451391545.title}"
+				title: "{ftbquests.chapter.end_game.quest1.task_348443294451391545.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -216,7 +130,7 @@
 		}
 		{
 			dependencies: ["69211BF1D6204C54"]
-			description: ["{ftbquests.chapter.end_game.quest3.description1}"]
+			description: ["{ftbquests.chapter.end_game.quest2.description1}"]
 			id: "4CAE385F554764AE"
 			rewards: [
 				{
@@ -245,7 +159,7 @@
 					id: "2F1424B4925C78E7"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest3.reward_3392376777285073127.title}"
+					title: "{ftbquests.chapter.end_game.quest2.reward_3392376777285073127.title}"
 					type: "command"
 				}
 				{
@@ -256,7 +170,7 @@
 					id: "1D8302AAA2FC755E"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest3.reward_2126546380951156062.title}"
+					title: "{ftbquests.chapter.end_game.quest2.reward_2126546380951156062.title}"
 					type: "command"
 				}
 				{
@@ -267,7 +181,7 @@
 					id: "4393BE5168C5891E"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest3.reward_4869444878977042718.title}"
+					title: "{ftbquests.chapter.end_game.quest2.reward_4869444878977042718.title}"
 					type: "command"
 				}
 				{
@@ -278,7 +192,7 @@
 					id: "11579B9DFE67E76F"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest3.reward_1249638524498995055.title}"
+					title: "{ftbquests.chapter.end_game.quest2.reward_1249638524498995055.title}"
 					type: "command"
 				}
 				{
@@ -289,7 +203,7 @@
 					id: "32E0090EC329E0FB"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest3.reward_3665940055688077563.title}"
+					title: "{ftbquests.chapter.end_game.quest2.reward_3665940055688077563.title}"
 					type: "command"
 				}
 			]
@@ -299,68 +213,12 @@
 				entity: "cataclysm:ender_golem"
 				icon: "cataclysm:void_core"
 				id: "28CFCAC0B99706F3"
-				title: "{ftbquests.chapter.end_game.quest3.task_+2940792010792437491.title}"
+				title: "{ftbquests.chapter.end_game.quest2.task_2940792010792437491.title}"
 				type: "kill"
 				value: 1L
 			}]
 			x: 20.0d
 			y: -1.0d
-		}
-		{
-			dependencies: ["2F2E994C5099612A"]
-			id: "2B6A4A6E2B86BA68"
-			rewards: [{
-				id: "2B7C3D23A8B361C0"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "35216BF3BFA57B95"
-				item: "alexsmobs:mosquito_larva"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.end_game.quest4.title}"
-			x: 14.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F2E994C5099612A"]
-			description: ["{ftbquests.chapter.end_game.quest5.description1}"]
-			id: "1BABBA58C159FA7F"
-			rewards: [{
-				auto: "no_toast"
-				id: "42F53549EB27605E"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "69E1291E132F5790"
-				item: "alexsmobs:capsid"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.end_game.quest5.title}"
-			x: 13.0d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"2B6A4A6E2B86BA68"
-				"1BABBA58C159FA7F"
-			]
-			description: ["{ftbquests.chapter.end_game.quest6.description1}"]
-			id: "178CBBAB037A6FE8"
-			rewards: [{
-				id: "0BBC2C56BB4987B1"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			tasks: [{
-				id: "6EA60769A7038ABE"
-				item: "alexsmobs:mysterious_worm"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 3.0d
 		}
 		{
 			dependencies: ["6EB21A5EFC2F6EF2"]
@@ -401,13 +259,13 @@
 				item: "majruszsdifficulty:undead_army_treasure_bag"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.end_game.quest7.title}"
-			x: 19.0d
-			y: 0.5d
+			title: "{ftbquests.chapter.end_game.quest3.title}"
+			x: 17.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["1F0F1E44E140025C"]
-			description: ["{ftbquests.chapter.end_game.quest8.description1}"]
+			dependencies: ["2F2E994C5099612A"]
+			description: ["{ftbquests.chapter.end_game.quest4.description1}"]
 			icon: "cataclysm:necklace_of_the_desert"
 			id: "69211BF1D6204C54"
 			min_required_tasks: 1
@@ -432,7 +290,7 @@
 					id: "403823BB710E502D"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest8.reward_4627487905085804589.title}"
+					title: "{ftbquests.chapter.end_game.quest4.reward_4627487905085804589.title}"
 					type: "command"
 				}
 				{
@@ -443,7 +301,7 @@
 					id: "43F57CC4F92B0700"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest8.reward_4896957355271063296.title}"
+					title: "{ftbquests.chapter.end_game.quest4.reward_4896957355271063296.title}"
 					type: "command"
 				}
 				{
@@ -454,7 +312,7 @@
 					id: "5CBBBB635E229018"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest8.reward_6682140507589742616.title}"
+					title: "{ftbquests.chapter.end_game.quest4.reward_6682140507589742616.title}"
 					type: "command"
 				}
 				{
@@ -465,7 +323,7 @@
 					id: "18800BC0E3E80A01"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest8.reward_1765423977014495745.title}"
+					title: "{ftbquests.chapter.end_game.quest4.reward_1765423977014495745.title}"
 					type: "command"
 				}
 				{
@@ -476,7 +334,7 @@
 					id: "1374CD7B212B7C63"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest8.reward_1401971312740236387.title}"
+					title: "{ftbquests.chapter.end_game.quest4.reward_1401971312740236387.title}"
 					type: "command"
 				}
 			]
@@ -486,19 +344,19 @@
 				entity: "cataclysm:ancient_remnant"
 				icon: "cataclysm:necklace_of_the_desert"
 				id: "59330083685E8CCA"
-				title: "{ftbquests.chapter.end_game.quest8.task_+6427481657579572426.title}"
+				title: "{ftbquests.chapter.end_game.quest4.task_6427481657579572426.title}"
 				type: "kill"
 				value: 1L
 			}]
-			x: 20.0d
-			y: 2.0d
+			x: 17.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6EB21A5EFC2F6EF2"]
 			description: [
-				"{ftbquests.chapter.end_game.quest9.description1}"
+				"{ftbquests.chapter.end_game.quest5.description1}"
 				""
-				"{ftbquests.chapter.end_game.quest9.description2}"
+				"{ftbquests.chapter.end_game.quest5.description2}"
 			]
 			icon: "artifacts:obsidian_skull"
 			id: "2F2E994C5099612A"
@@ -538,7 +396,7 @@
 					id: "5B72F8A78D9737DA"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest9.reward_6589602603315181530.title}"
+					title: "{ftbquests.chapter.end_game.quest5.reward_6589602603315181530.title}"
 					type: "command"
 				}
 				{
@@ -549,7 +407,7 @@
 					id: "761987E01EE87961"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest9.reward_8509982367554238817.title}"
+					title: "{ftbquests.chapter.end_game.quest5.reward_8509982367554238817.title}"
 					type: "command"
 				}
 				{
@@ -560,7 +418,7 @@
 					id: "48B551EEC0EAED2E"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest9.reward_5239183827396128046.title}"
+					title: "{ftbquests.chapter.end_game.quest5.reward_5239183827396128046.title}"
 					type: "command"
 				}
 				{
@@ -571,7 +429,7 @@
 					id: "20C2D551E4FF3550"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest9.reward_2360683702406559056.title}"
+					title: "{ftbquests.chapter.end_game.quest5.reward_2360683702406559056.title}"
 					type: "command"
 				}
 				{
@@ -582,7 +440,7 @@
 					id: "323EF3DFD605B1CD"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.end_game.quest9.reward_3620599293146411469.title}"
+					title: "{ftbquests.chapter.end_game.quest5.reward_3620599293146411469.title}"
 					type: "command"
 				}
 			]
@@ -593,7 +451,7 @@
 					entity: "bosses_of_mass_destruction:obsidilith"
 					icon: "artifacts:obsidian_skull"
 					id: "4EF1F3E2E1EA7513"
-					title: "{ftbquests.chapter.end_game.quest9.task_+5688595960124044563.title}"
+					title: "{ftbquests.chapter.end_game.quest5.task_5688595960124044563.title}"
 					type: "kill"
 					value: 1L
 				}

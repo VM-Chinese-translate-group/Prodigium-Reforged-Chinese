@@ -414,7 +414,7 @@
 					entity: "minecraft:elder_guardian"
 					icon: "majruszsdifficulty:elder_guardian_treasure_bag"
 					id: "7E8040F0998CD20A"
-					title: "{ftbquests.chapter.mid_game.quest1.task_+9115357047910355466.title}"
+					title: "{ftbquests.chapter.mid_game.quest1.task_9115357047910355466.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -524,7 +524,7 @@
 					entity: "minecraft:wither"
 					icon: "minecraft:wither_skeleton_skull"
 					id: "1787DFC6FDBED8FB"
-					title: "{ftbquests.chapter.mid_game.quest2.task_+1695569830481942779.title}"
+					title: "{ftbquests.chapter.mid_game.quest2.task_1695569830481942779.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -645,7 +645,7 @@
 					entity: "minecraft:ender_dragon"
 					icon: "minecraft:dragon_head"
 					id: "2F5E3A53F186F4F3"
-					title: "{ftbquests.chapter.mid_game.quest3.task_+3413229699802264819.title}"
+					title: "{ftbquests.chapter.mid_game.quest3.task_3413229699802264819.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -838,7 +838,7 @@
 					entity: "stalwart_dungeons:nether_keeper"
 					icon: "stalwart_dungeons:keeping_castle_spawner"
 					id: "7A851329C3F650DB"
-					title: "{ftbquests.chapter.mid_game.quest5.task_+8828483714632011995.title}"
+					title: "{ftbquests.chapter.mid_game.quest5.task_8828483714632011995.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -846,7 +846,7 @@
 					entity: "stalwart_dungeons:awful_ghast"
 					icon: "stalwart_dungeons:awful_dungeon_spawner"
 					id: "5B443EB49F15C3AB"
-					title: "{ftbquests.chapter.mid_game.quest5.task_+6576450301351805867.title}"
+					title: "{ftbquests.chapter.mid_game.quest5.task_6576450301351805867.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -857,7 +857,7 @@
 		}
 		{
 			dependencies: ["78E025D30CD1E607"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "27D8F0F385A37554"
 			optional: true
 			rewards: [
@@ -939,7 +939,7 @@
 				entity: "minecraft:wither"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "2C91F2E4CF182B42"
-				title: "{ftbquests.chapter.mid_game.quest6.task_+3211615073832807234.title}"
+				title: "{ftbquests.chapter.mid_game.quest6.task_3211615073832807234.title}"
 				type: "kill"
 				value: 15L
 			}]
@@ -948,7 +948,7 @@
 		}
 		{
 			dependencies: ["14CA102BAD4F6A38"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "28B617BF86C93248"
 			rewards: [{
 				auto: "no_toast"
@@ -968,7 +968,7 @@
 		{
 			dependencies: ["0EA710182249A301"]
 			description: ["{ftbquests.chapter.mid_game.quest8.description1}"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "099477E4F8EED634"
 			rewards: [{
 				auto: "no_toast"
@@ -1089,7 +1089,7 @@
 					}
 				}
 				id: "49BFF0417C3C70C2"
-				title: "{ftbquests.chapter.mid_game.quest9.task_+5314230249368350914.title}"
+				title: "{ftbquests.chapter.mid_game.quest9.task_5314230249368350914.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1185,7 +1185,7 @@
 				entity: "cataclysm:ignis"
 				icon: "cataclysm:bulwark_of_the_flame"
 				id: "469575AC0949000F"
-				title: "{ftbquests.chapter.mid_game.quest10.task_+5086100735935447055.title}"
+				title: "{ftbquests.chapter.mid_game.quest10.task_5086100735935447055.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1297,7 +1297,7 @@
 				entity: "cataclysm:the_harbinger"
 				icon: "cataclysm:emp"
 				id: "1E8C22D71228D269"
-				title: "{ftbquests.chapter.mid_game.quest11.task_+2201172624995308137.title}"
+				title: "{ftbquests.chapter.mid_game.quest11.task_2201172624995308137.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1398,7 +1398,7 @@
 				dimension: "aether:the_aether"
 				icon: "minecraft:glowstone"
 				id: "0DE749290636BCC1"
-				title: "{ftbquests.chapter.mid_game.quest12.task_+1001849882659962049.title}"
+				title: "{ftbquests.chapter.mid_game.quest12.task_1001849882659962049.title}"
 				type: "dimension"
 			}]
 			x: 8.0d
@@ -1517,7 +1517,7 @@
 						}
 					}
 					id: "6B4790D825780CDF"
-					title: "{ftbquests.chapter.mid_game.quest13.task_+7730306543420706015.title}"
+					title: "{ftbquests.chapter.mid_game.quest13.task_7730306543420706015.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -1631,7 +1631,7 @@
 						}
 					}
 					id: "61BB677C2D9111EC"
-					title: "{ftbquests.chapter.mid_game.quest14.task_+7042336225361990124.title}"
+					title: "{ftbquests.chapter.mid_game.quest14.task_7042336225361990124.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -1733,7 +1733,7 @@
 					entity: "aether:sun_spirit"
 					icon: "irons_spellbooks:fire_upgrade_orb"
 					id: "13C396BB9CF8F116"
-					title: "{ftbquests.chapter.mid_game.quest15.task_+1424147639715819798.title}"
+					title: "{ftbquests.chapter.mid_game.quest15.task_1424147639715819798.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -1750,7 +1750,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["20AFC310D0AC8AB0"]
+			dependencies: ["777E4D10DDDACAD7"]
 			description: ["{ftbquests.chapter.mid_game.quest16.description1}"]
 			icon: "minecraft:spore_blossom"
 			id: "6AC131C918D30C93"
@@ -1831,7 +1831,7 @@
 					entity: "bosses_of_mass_destruction:void_blossom"
 					icon: "minecraft:spore_blossom"
 					id: "5B7ACDD77C09B465"
-					title: "{ftbquests.chapter.mid_game.quest16.task_+6591807329992815717.title}"
+					title: "{ftbquests.chapter.mid_game.quest16.task_6591807329992815717.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -1848,104 +1848,8 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["777E4D10DDDACAD7"]
-			description: [
-				"{ftbquests.chapter.mid_game.quest17.description1}"
-				""
-				"{ftbquests.chapter.mid_game.quest17.description2}"
-			]
-			icon: "bosses_of_mass_destruction:mob_ward"
-			id: "20AFC310D0AC8AB0"
-			min_required_tasks: 1
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "540A7795CCA91D18"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-				{
-					auto: "enabled"
-					command: "/puffish_skills points add @p simplyskills:berserker 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "4003B1832636D437"
-					silent: true
-					team_reward: false
-					title: "{ftbquests.chapter.mid_game.quest17.reward_4612725620197479479.title}"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:crusader 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "09F4657DDAE89CB9"
-					silent: true
-					team_reward: false
-					title: "{ftbquests.chapter.mid_game.quest17.reward_717309831876746425.title}"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:ranger 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "2CABF84E4DF9A50F"
-					silent: true
-					team_reward: false
-					title: "{ftbquests.chapter.mid_game.quest17.reward_3218939373885695247.title}"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:wizard 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "7CDB51A17EB18831"
-					silent: true
-					team_reward: false
-					title: "{ftbquests.chapter.mid_game.quest17.reward_8996874434659846193.title}"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/puffish_skills points add @p simplyskills:cleric 2"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "0153404CA0A6B0A9"
-					silent: true
-					team_reward: false
-					title: "{ftbquests.chapter.mid_game.quest17.reward_95490714961883305.title}"
-					type: "command"
-				}
-			]
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [
-				{
-					entity: "bosses_of_mass_destruction:lich"
-					icon: "bosses_of_mass_destruction:mob_ward"
-					id: "43E2430FC6169174"
-					title: "{ftbquests.chapter.mid_game.quest17.task_+4891545880304718196.title}"
-					type: "kill"
-					value: 1L
-				}
-				{
-					advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
-					criterion: ""
-					disable_toast: true
-					id: "032E7F1C90512375"
-					secret: true
-					type: "advancement"
-				}
-			]
-			x: 13.0d
-			y: -5.0d
-		}
-		{
 			dependencies: ["0EA710182249A301"]
-			description: ["{ftbquests.chapter.mid_game.quest18.description1}"]
+			description: ["{ftbquests.chapter.mid_game.quest17.description1}"]
 			icon: "bosses_of_mass_destruction:blazing_eye"
 			id: "476DC0D49480853F"
 			min_required_tasks: 1
@@ -1976,7 +1880,7 @@
 					id: "1DE358B0DEE1D794"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.mid_game.quest18.reward_2153662563490060180.title}"
+					title: "{ftbquests.chapter.mid_game.quest17.reward_2153662563490060180.title}"
 					type: "command"
 				}
 				{
@@ -1987,7 +1891,7 @@
 					id: "47F0DB59FB30AEFE"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.mid_game.quest18.reward_5183884350616284926.title}"
+					title: "{ftbquests.chapter.mid_game.quest17.reward_5183884350616284926.title}"
 					type: "command"
 				}
 				{
@@ -1998,7 +1902,7 @@
 					id: "1B3A1EA0367EE22B"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.mid_game.quest18.reward_1961914261131158059.title}"
+					title: "{ftbquests.chapter.mid_game.quest17.reward_1961914261131158059.title}"
 					type: "command"
 				}
 				{
@@ -2009,7 +1913,7 @@
 					id: "5123121BE7A33AB6"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.mid_game.quest18.reward_5846536652316687030.title}"
+					title: "{ftbquests.chapter.mid_game.quest17.reward_5846536652316687030.title}"
 					type: "command"
 				}
 				{
@@ -2020,7 +1924,7 @@
 					id: "2C7150028D46D825"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.mid_game.quest18.reward_3202428781927520293.title}"
+					title: "{ftbquests.chapter.mid_game.quest17.reward_3202428781927520293.title}"
 					type: "command"
 				}
 			]
@@ -2031,7 +1935,7 @@
 					entity: "bosses_of_mass_destruction:gauntlet"
 					icon: "bosses_of_mass_destruction:blazing_eye"
 					id: "461CA47E0065DD97"
-					title: "{ftbquests.chapter.mid_game.quest18.task_+5052093743082364311.title}"
+					title: "{ftbquests.chapter.mid_game.quest17.task_5052093743082364311.title}"
 					type: "kill"
 					value: 1L
 				}
@@ -2049,7 +1953,7 @@
 		}
 		{
 			dependencies: ["64DECE60E0B6FB6D"]
-			description: ["{ftbquests.chapter.mid_game.quest19.description1}"]
+			description: ["{ftbquests.chapter.mid_game.quest18.description1}"]
 			id: "2E4E6F6B59046500"
 			rewards: [
 				{
@@ -2072,7 +1976,7 @@
 					id: "0871F67F5B61C74F"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.mid_game.quest19.reward_608538451526141775.title}"
+					title: "{ftbquests.chapter.mid_game.quest18.reward_608538451526141775.title}"
 					type: "command"
 				}
 				{
@@ -2083,7 +1987,7 @@
 					id: "783C315108BBB7CF"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.mid_game.quest19.reward_8663854007262623695.title}"
+					title: "{ftbquests.chapter.mid_game.quest18.reward_8663854007262623695.title}"
 					type: "command"
 				}
 				{
@@ -2094,7 +1998,7 @@
 					id: "05DD50B4D2DF5E65"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.mid_game.quest19.reward_422582677604884069.title}"
+					title: "{ftbquests.chapter.mid_game.quest18.reward_422582677604884069.title}"
 					type: "command"
 				}
 				{
@@ -2105,7 +2009,7 @@
 					id: "15CD3C6AE6FCF70D"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.mid_game.quest19.reward_1570978274861709069.title}"
+					title: "{ftbquests.chapter.mid_game.quest18.reward_1570978274861709069.title}"
 					type: "command"
 				}
 				{
@@ -2116,7 +2020,7 @@
 					id: "4DC104F46EF53094"
 					silent: true
 					team_reward: false
-					title: "{ftbquests.chapter.mid_game.quest19.reward_5602764859305701524.title}"
+					title: "{ftbquests.chapter.mid_game.quest18.reward_5602764859305701524.title}"
 					type: "command"
 				}
 			]
@@ -2126,7 +2030,7 @@
 				entity: "cataclysm:the_leviathan"
 				icon: "cataclysm:altar_of_abyss"
 				id: "20108F7B32AB038C"
-				title: "{ftbquests.chapter.mid_game.quest19.task_+2310504368134882188.title}"
+				title: "{ftbquests.chapter.mid_game.quest18.task_2310504368134882188.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -2136,12 +2040,12 @@
 		{
 			dependencies: ["3B3B33E6A70E1CAF"]
 			description: [
-				"{ftbquests.chapter.mid_game.quest20.description1}"
+				"{ftbquests.chapter.mid_game.quest19.description1}"
 				""
-				"{ftbquests.chapter.mid_game.quest20.description2}"
+				"{ftbquests.chapter.mid_game.quest19.description2}"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "4AC9C0AE0E293CF0"
 			min_required_tasks: 12
 			rewards: [{
@@ -2323,9 +2227,9 @@
 		{
 			dependencies: ["774BCB593AAFAA33"]
 			description: [
-				"{ftbquests.chapter.mid_game.quest21.description1}"
+				"{ftbquests.chapter.mid_game.quest20.description1}"
 				""
-				"{ftbquests.chapter.mid_game.quest21.description2}"
+				"{ftbquests.chapter.mid_game.quest20.description2}"
 			]
 			id: "6556B46344AD4167"
 			rewards: [{
@@ -2339,7 +2243,7 @@
 				item: "confluence:workshop"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mid_game.quest21.title}"
+			title: "{ftbquests.chapter.mid_game.quest20.title}"
 			x: 1.5d
 			y: -3.5d
 		}
