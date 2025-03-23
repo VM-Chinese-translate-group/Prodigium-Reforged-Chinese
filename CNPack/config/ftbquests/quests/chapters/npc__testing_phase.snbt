@@ -618,65 +618,51 @@
 				{
 					auto: "invisible"
 					command: "/ftbquests change_progress @s reset 05CD079B659C9887"
-					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "248CE8D009ED610F"
-					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/ftbquests change_progress @s reset 2EF592CDDA98B3BB"
-					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "248CE8D009ED611F"
-					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/ftbquests change_progress @s reset 65192517B6EF65B3"
-					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "248CE8D009ED612F"
-					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/ftbquests change_progress @s reset 418F4DA11631D188"
-					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "248CE8D009ED613F"
-					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/ftbquests change_progress @s reset 473A1C167CB0BBA2"
-					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "248CE8D009ED614F"
-					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/ftbquests change_progress @s reset 3EDAF52890A4A330"
-					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "248CE8D009ED615F"
-					silent: true
 					team_reward: false
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/ftbquests change_progress @s reset 12925553745B74D6"
-					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "248CE8D009ED616F"
-					silent: true
 					team_reward: false
 					type: "command"
 				}
@@ -698,30 +684,24 @@
 				{
 					auto: "invisible"
 					command: "/ftbquests change_progress @s reset 11C8F012CBB15B39"
-					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "248CE8D009ED617F"
-					silent: true
 					team_reward: false
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/ftbquests change_progress @s reset 115FFAB3CB126794B"
-					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "248CE8D009ED618F"
-					silent: true
 					team_reward: false
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/ftbquests change_progress @s reset 73436E1218DD099D"
-					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "248CE8D009ED619F"
-					silent: true
 					team_reward: false
 					type: "command"
 				}

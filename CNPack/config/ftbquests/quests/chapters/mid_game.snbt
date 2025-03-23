@@ -1750,7 +1750,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["777E4D10DDDACAD7"]
+			dependencies: ["113BABA4C72BAEBD"]
 			description: ["{ftbquests.chapter.mid_game.quest16.description1}"]
 			icon: "minecraft:spore_blossom"
 			id: "6AC131C918D30C93"
@@ -2245,7 +2245,93 @@
 			}]
 			title: "{ftbquests.chapter.mid_game.quest20.title}"
 			x: 1.5d
-			y: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["777E4D10DDDACAD7"]
+			description: ["{ftbquests.chapter.mid_game.quest21.description1}"]
+			id: "113BABA4C72BAEBD"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0A22FAF7A131157A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "735CBAF0C1B72886"
+					table_id: 5533560640127059513L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:berserker 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0385F7F5A3D2708D"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest21.reward_253881588403826829.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:crusader 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4BDC3D79FA392EB4"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest21.reward_5466311641819328180.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:ranger 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0DB32DC9023F0E1C"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest21.reward_987183084673633820.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:wizard 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2FE5BB4519D5D5E3"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest21.reward_3451370594909935075.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:cleric 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4ADFBF6BDD1F95ED"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest21.reward_5395241348605384173.title}"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "meetyourfight:dame_fortuna"
+				icon: "meetyourfight:devils_ante"
+				id: "44A45D7F652EA1F2"
+				title: "{ftbquests.chapter.mid_game.quest21.task_4946181092499431922.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: -5.0d
 		}
 	]
 	title: "{ftbquests.chapter.mid_game.title}"

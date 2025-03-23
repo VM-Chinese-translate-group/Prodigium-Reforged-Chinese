@@ -11,7 +11,7 @@
 			image: "bettericons:textures/items/tile005.png"
 			rotation: 0.0d
 			width: 3.5d
-			x: 23.5d
+			x: 24.0d
 			y: 2.5d
 		}
 		{
@@ -20,7 +20,7 @@
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 40.0d
 			width: 1.0d
-			x: 22.0d
+			x: 22.5d
 			y: 1.5d
 		}
 		{
@@ -29,7 +29,7 @@
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 20.0d
 			width: 0.8d
-			x: 24.5d
+			x: 25.0d
 			y: 1.5d
 		}
 		{
@@ -38,7 +38,7 @@
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 0.0d
 			width: 0.9d
-			x: 22.0d
+			x: 22.5d
 			y: 2.5d
 		}
 		{
@@ -47,7 +47,7 @@
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 23.5d
+			x: 24.0d
 			y: 0.5d
 		}
 		{
@@ -55,7 +55,7 @@
 			image: "minecraft:textures/particle/lava.png"
 			rotation: 0.0d
 			width: 0.65d
-			x: 22.5d
+			x: 23.0d
 			y: 1.0d
 		}
 		{
@@ -192,7 +192,7 @@
 				title: "{ftbquests.chapter.test_3.quest2.task_5777199675384267433.title}"
 				type: "dimension"
 			}]
-			x: 23.5d
+			x: 24.0d
 			y: 2.75d
 		}
 		{
@@ -357,7 +357,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["1A1D4191D9A098E9"]
+			dependencies: ["4D93BD91D588FC2E"]
 			description: [
 				"{ftbquests.chapter.test_3.quest5.description1}"
 				""
@@ -442,11 +442,11 @@
 					type: "advancement"
 				}
 			]
-			x: 8.5d
+			x: 12.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["44CABC14818B1DFB"]
+			dependencies: ["53EAB8D1FE264583"]
 			description: ["{ftbquests.chapter.test_3.quest6.description1}"]
 			id: "281435B11C0F1243"
 			min_required_tasks: 1
@@ -565,7 +565,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 18.0d
+			x: 21.0d
 			y: 2.0d
 		}
 		{
@@ -632,7 +632,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.test_3.quest8.title}"
-			x: 9.0d
+			x: 9.5d
 			y: 1.0d
 		}
 		{
@@ -663,7 +663,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.test_3.quest9.title}"
-			x: 17.0d
+			x: 19.0d
 			y: -2.5d
 		}
 		{
@@ -682,8 +682,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.test_3.quest10.title}"
-			x: 17.0d
-			y: -1.0d
+			x: 19.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2105DF082D01D023"]
@@ -1019,7 +1019,7 @@
 					type: "advancement"
 				}
 			]
-			x: 15.0d
+			x: 17.0d
 			y: -1.0d
 		}
 		{
@@ -1047,8 +1047,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.test_3.quest17.title}"
-			x: 18.5d
-			y: -1.0d
+			x: 20.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["509DBFC46966C6EF"]
@@ -1200,7 +1200,7 @@
 					type: "advancement"
 				}
 			]
-			x: 12.0d
+			x: 15.0d
 			y: -1.0d
 		}
 		{
@@ -1228,6 +1228,107 @@
 			}]
 			x: 6.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["44CABC14818B1DFB"]
+			description: ["{ftbquests.chapter.test_3.quest23.description1}"]
+			id: "53EAB8D1FE264583"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18C1ADC10468421E"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					id: "0946816845086F4F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C1002E8708810F4"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:tree 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0DE29E6B6A7ADD9D"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.test_3.quest23.reward_1000536251414797725.title}"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "meetyourfight:bellringer"
+				icon: "meetyourfight:haunted_bell"
+				id: "3AB84AEFA28459AB"
+				title: "{ftbquests.chapter.test_3.quest23.task_4231214242998802859.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A1D4191D9A098E9"]
+			description: ["{ftbquests.chapter.test_3.quest24.description1}"]
+			id: "4D93BD91D588FC2E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4DBF7D96C479DDC8"
+					table_id: 7449522933339281626L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					id: "6A23FA21BD1EEBE8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69DA3719E5433CC8"
+					table_id: 2230653418983874155L
+					type: "loot"
+				}
+				{
+					id: "309EAB7BACEAD23E"
+					item: "majruszsdifficulty:recall_potion"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/puffish_skills points add @p simplyskills:tree 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0E61835BCB39BD88"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.test_3.quest24.reward_1036253819546746248.title}"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "meetyourfight:swampjaw"
+				icon: "meetyourfight:swampjaw_head"
+				id: "68529F45A5B5E184"
+				title: "{ftbquests.chapter.test_3.quest24.task_7517245849516499332.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -1.0d
 		}
 	]
 	title: "{ftbquests.chapter.test_3.title}"
