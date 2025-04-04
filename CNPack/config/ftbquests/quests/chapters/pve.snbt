@@ -11,7 +11,7 @@
 		}
 	}
 	id: "34139115EBB7158A"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -102,20 +102,6 @@
 					id: "5B1C7C40AF4B0D46"
 					type: "xp_levels"
 					xp_levels: 2
-				}
-				{
-					id: "157A03BF4DE252BB"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "ma-enchants:wisdom"
-								lvl: 3s
-							}]
-						}
-					}
-					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -801,7 +787,7 @@
 			]
 			secret: true
 			tasks: [{
-				icon: "fantasyfurniture:bone/skeleton/skull"
+				icon: "minecraft:skeleton_skull"
 				id: "2EFD585DD6C37C63"
 				stat: "minecraft:deaths"
 				type: "stat"

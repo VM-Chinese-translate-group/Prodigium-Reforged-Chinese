@@ -163,6 +163,12 @@
 				"{ftbquests.chapter.classes_introduction.quest5.description2}"
 			]
 			id: "745FE062B66D6927"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7811ABFA60B5931B"
+				table_id: 9057004262298788782L
+				type: "loot"
+			}]
 			secret: true
 			tasks: [{
 				icon: {
@@ -186,6 +192,12 @@
 				"{ftbquests.chapter.classes_introduction.quest6.description2}"
 			]
 			id: "525D3BC989CF49D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DC913972774FD63"
+				table_id: 9057004262298788782L
+				type: "loot"
+			}]
 			secret: true
 			tasks: [{
 				icon: "runes:healing_stone"
@@ -220,6 +232,12 @@
 					id: "47343F384ADC19CE"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "471732A3775B3926"
+					table_id: 8392552378705949885L
+					type: "loot"
 				}
 			]
 			subtitle: "{ftbquests.chapter.classes_introduction.quest7.subtitle}"

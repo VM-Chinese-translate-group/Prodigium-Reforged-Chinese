@@ -5,7 +5,7 @@
 	group: "04557421BF808B7D"
 	icon: "mcwdoors:acacia_western_door"
 	id: "3FEC8081D4D64E2A"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -594,11 +594,6 @@
 				{
 					id: "757C9F5B9A2A49FF"
 					item: "corail_woodcutter:oak_woodcutter"
-					type: "item"
-				}
-				{
-					id: "2253EB9503CB5CF6"
-					item: "fantasyfurniture:furniture_station"
 					type: "item"
 				}
 			]
