@@ -406,6 +406,17 @@
 					title: "{ftbquests.chapter.mid_game.quest1.reward_718674488170648640.title}"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4CDCD61665E8C011"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest1.reward_5538537033446244369.title}"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -427,8 +438,10 @@
 					type: "advancement"
 				}
 				{
+					disable_toast: true
 					id: "2AC334209C788654"
 					item: "majruszsdifficulty:elder_guardian_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -521,6 +534,17 @@
 					title: "{ftbquests.chapter.mid_game.quest2.reward_2494902524501901444.title}"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6BB410D5C63CE6A6"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest2.reward_7760846568206165670.title}"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -542,8 +566,10 @@
 					type: "advancement"
 				}
 				{
+					disable_toast: true
 					id: "3B3F0E1C25E9CCE7"
 					item: "majruszsdifficulty:wither_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -647,6 +673,17 @@
 					title: "{ftbquests.chapter.mid_game.quest3.reward_6625743734894695578.title}"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6DCECA196284BEF4"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest3.reward_7912483805712400116.title}"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.5d
@@ -668,8 +705,10 @@
 					type: "advancement"
 				}
 				{
+					disable_toast: true
 					id: "65CC0474C17BAF26"
 					item: "majruszsdifficulty:ender_dragon_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -722,7 +761,11 @@
 		}
 		{
 			dependencies: ["78E025D30CD1E607"]
-			description: ["{ftbquests.chapter.mid_game.quest5.description1}"]
+			description: [
+				"{ftbquests.chapter.mid_game.quest5.description1}"
+				""
+				"{ftbquests.chapter.mid_game.quest5.description2}"
+			]
 			icon: "stalwart_dungeons:keeping_castle_spawner"
 			id: "0EA710182249A301"
 			min_required_tasks: 2
@@ -847,6 +890,17 @@
 					title: "{ftbquests.chapter.mid_game.quest5.reward_3034873152237640963.title}"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "237A7ABA6DC858FC"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest5.reward_2556490679610530044.title}"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -868,13 +922,17 @@
 					value: 1L
 				}
 				{
+					disable_toast: true
 					id: "48B54934F0F9C2B1"
 					item: "prodigium:nether_keeper_treasure_bag"
+					secret: true
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "10BE3424167CB631"
 					item: "prodigium:awful_ghast_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -921,7 +979,7 @@
 					type: "command"
 				}
 				{
-					auto: "enabled"
+					auto: "invisible"
 					command: "/puffish_skills points add @p simplyskills:crusader 2"
 					icon: "minecraft:experience_bottle"
 					id: "6057A1F638DBCCD1"
@@ -931,7 +989,7 @@
 					type: "command"
 				}
 				{
-					auto: "enabled"
+					auto: "invisible"
 					command: "/puffish_skills points add @p simplyskills:ranger 2"
 					icon: "minecraft:experience_bottle"
 					id: "1E231A6D24C91038"
@@ -941,7 +999,7 @@
 					type: "command"
 				}
 				{
-					auto: "enabled"
+					auto: "invisible"
 					command: "/puffish_skills points add @p simplyskills:wizard 2"
 					icon: "minecraft:experience_bottle"
 					id: "2B7FDC7D0A178A72"
@@ -951,13 +1009,24 @@
 					type: "command"
 				}
 				{
-					auto: "enabled"
+					auto: "invisible"
 					command: "/puffish_skills points add @p simplyskills:cleric 2"
 					icon: "minecraft:experience_bottle"
 					id: "4A9E008F17B99F7E"
 					silent: true
 					team_reward: false
 					title: "{ftbquests.chapter.mid_game.quest6.reward_5376735619705315198.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7569AAC4E035FECE"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest6.reward_8460481137544134350.title}"
 					type: "command"
 				}
 			]
@@ -1111,6 +1180,17 @@
 					title: "{ftbquests.chapter.mid_game.quest9.reward_8310710569322362322.title}"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1790D16F8A0C0B41"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest9.reward_1698087336506297153.title}"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -1130,8 +1210,10 @@
 					value: 1L
 				}
 				{
+					disable_toast: true
 					id: "4EA512E17B6F8813"
 					item: "prodigium:netherite_monstrosity_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -1222,6 +1304,17 @@
 					title: "{ftbquests.chapter.mid_game.quest10.reward_1175610697010906511.title}"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2F4D807C63127FB6"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest10.reward_3408521764715790262.title}"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -1235,8 +1328,10 @@
 					value: 1L
 				}
 				{
+					disable_toast: true
 					id: "44F69D681DBE9B96"
 					item: "prodigium:ignis_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -1343,6 +1438,17 @@
 					title: "{ftbquests.chapter.mid_game.quest11.reward_5356224852874497876.title}"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "569BE6B6A55CDAAD"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest11.reward_6240835380784716461.title}"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -1356,8 +1462,10 @@
 					value: 1L
 				}
 				{
+					disable_toast: true
 					id: "789C980C826E0D55"
 					item: "prodigium:harbinger_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -1371,6 +1479,8 @@
 				""
 				"{ftbquests.chapter.mid_game.quest12.description2}"
 				"{ftbquests.chapter.mid_game.quest12.description3}"
+				""
+				"{ftbquests.chapter.mid_game.quest12.description4}"
 			]
 			id: "7C742369CC5C8B9E"
 			rewards: [
@@ -1449,6 +1559,17 @@
 					silent: true
 					team_reward: false
 					title: "{ftbquests.chapter.mid_game.quest12.reward_2902260003616832141.title}"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 1"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2B40A817AD734962"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest12.reward_3116675761788111202.title}"
 					type: "command"
 				}
 			]
@@ -1563,6 +1684,17 @@
 					title: "{ftbquests.chapter.mid_game.quest13.reward_584359398861744998.title}"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "337FE13A46AAB0ED"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest13.reward_3710932258386522349.title}"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -1590,8 +1722,10 @@
 					type: "advancement"
 				}
 				{
+					disable_toast: true
 					id: "605FCC2C30F80D7C"
 					item: "prodigium:slider_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -1682,6 +1816,17 @@
 					title: "{ftbquests.chapter.mid_game.quest14.reward_1249638300501647035.title}"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "67CC47C1278790EE"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest14.reward_7479431976073007342.title}"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -1709,8 +1854,10 @@
 					type: "advancement"
 				}
 				{
+					disable_toast: true
 					id: "67FBC68989D9DAB8"
 					item: "prodigium:valkyrie_queen_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -1795,6 +1942,17 @@
 					title: "{ftbquests.chapter.mid_game.quest15.reward_4758319504345751885.title}"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0DECC14498EC64FC"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest15.reward_1003389317364344060.title}"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -1816,8 +1974,10 @@
 					type: "advancement"
 				}
 				{
+					disable_toast: true
 					id: "1B79CD83F3EC0355"
 					item: "prodigium:sun_spirit_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -1898,6 +2058,17 @@
 					title: "{ftbquests.chapter.mid_game.quest16.reward_4157921475749631787.title}"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "104D28EAB5546F66"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest16.reward_1174640066343235430.title}"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -1919,8 +2090,10 @@
 					type: "advancement"
 				}
 				{
+					disable_toast: true
 					id: "50951BCAF1EB5633"
 					item: "prodigium:void_blossom_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -2007,6 +2180,17 @@
 					title: "{ftbquests.chapter.mid_game.quest17.reward_3202428781927520293.title}"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "698A3D7D9CDDBE89"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest17.reward_7604958530480488073.title}"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -2028,8 +2212,10 @@
 					type: "advancement"
 				}
 				{
+					disable_toast: true
 					id: "40E4AD224A92FF1F"
 					item: "prodigium:nether_gauntlet_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -2110,6 +2296,17 @@
 					title: "{ftbquests.chapter.mid_game.quest18.reward_5602764859305701524.title}"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "22490A1FAA5187B2"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest18.reward_2470517001707161522.title}"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -2123,8 +2320,10 @@
 					value: 1L
 				}
 				{
+					disable_toast: true
 					id: "2B234CF2EB937D4D"
 					item: "prodigium:leviathan_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]
@@ -2415,6 +2614,17 @@
 					title: "{ftbquests.chapter.mid_game.quest21.reward_5395241348605384173.title}"
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/puffish_skills points add @p simplyskills:necromancer 2"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "071B25BD7032A07E"
+					silent: true
+					team_reward: false
+					title: "{ftbquests.chapter.mid_game.quest21.reward_512044478198095998.title}"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -2428,8 +2638,10 @@
 					value: 1L
 				}
 				{
+					disable_toast: true
 					id: "1A13E7482C484022"
 					item: "prodigium:dame_fortuna_treasure_bag"
+					secret: true
 					type: "item"
 				}
 			]

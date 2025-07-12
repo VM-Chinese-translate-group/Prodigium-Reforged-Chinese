@@ -98,7 +98,7 @@
 				type: "loot"
 			}]
 			tasks: [{
-				icon: "cataclysm:mechanical_fusion_anvil"
+				icon: "quark:crafter"
 				id: "57002871DA02FC72"
 				title: "{ftbquests.chapter.npc__testing_phase.quest3.task_6269055150753774706.title}"
 				type: "custom"
@@ -223,7 +223,7 @@
 				type: "loot"
 			}]
 			tasks: [{
-				icon: "minecraft:crafting_table"
+				icon: "minecraft:loom"
 				id: "384F487E612876CC"
 				title: "{ftbquests.chapter.npc__testing_phase.quest8.task_4057541496917227212.title}"
 				type: "custom"
