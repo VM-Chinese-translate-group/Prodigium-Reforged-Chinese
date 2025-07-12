@@ -114,8 +114,13 @@
   "item.prodigium.void_worm_treasure_bag": "§b§lVoid Worm Treasure Bag",
   "item.prodigium.ancient_remnant_treasure_bag": "§b§lAncient Remnant Treasure Bag",
   "item.prodigium.ender_guardian_treasure_bag": "§b§lEnder Guardian Treasure Bag",
+  "item.prodigium.swampjaw_treasure_bag": "§b§lSwampjaw Treasure Bag",
+  "item.prodigium.bellringer_treasure_bag": "§b§lBellringer Treasure Bag",
+  "item.prodigium.dame_fortuna_treasure_bag": "§b§lDame Fortuna Treasure Bag",
+  "item.prodigium.rosalynne_treasure_bag": "§b§lRosalyne Treasure Bag",
+  "item.prodigium.king_slime_treasure_bag": "§b§lKing Slime Treasure Bag",
 
 
 
-  "creativetab.prodigium_tab": "Prodigium's creative tab"
+  "creativetab.prodigium_tab": "Prodigium"
 }
