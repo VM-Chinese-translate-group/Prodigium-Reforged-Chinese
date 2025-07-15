@@ -10050,7 +10050,9 @@
     ]
   },
   "armor+0.5": {
-    "title": "+0.5 Armor",
+    "title": {
+      "translate": "text.skills.armor+0.5.title"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -10069,7 +10071,9 @@
     ]
   },
   "melee_damage+5%": {
-    "title": "+5% Melee Damage",
+    "title": {
+      "translate": "text.skills.melee_damage+5%.title_6"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -10088,7 +10092,9 @@
     ]
   },
   "melee_damage+10%": {
-    "title": "+10% Melee Damage",
+    "title": {
+      "translate": "text.skills.melee_damage+10%.title_6"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -10107,7 +10113,9 @@
     ]
   },
   "overheal": {
-    "title": "Unlocks overheal",
+    "title": {
+      "translate": "text.skills.overheal.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10127,7 +10135,9 @@
     ]
   },
   "overheal+2%": {
-    "title": "+2% Overheal",
+    "title": {
+      "translate": "text.skills.overheal+2%.title_6"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -10146,7 +10156,9 @@
     ]
   },
   "resistance+1": {
-    "title": "+1% Resistance",
+    "title": {
+      "translate": "text.skills.resistance+1.title"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -10165,7 +10177,9 @@
     ]
   },
   "resistance+5%": {
-    "title": "+5% Resistance",
+    "title": {
+      "translate": "text.skills.resistance+5%.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10185,7 +10199,9 @@
     ]
   },
   "health2+": {
-    "title": "+2 Hearts",
+    "title": {
+      "translate": "text.skills.health2+.title_6"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -10204,7 +10220,9 @@
     ]
   },
   "health+4": {
-    "title": "+4 Hearts",
+    "title": {
+      "translate": "text.skills.health+4.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10224,7 +10242,9 @@
     ]
   },
   "root_health+4": {
-    "title": "Chose the Melee class (+4 Hearts)",
+    "title": {
+      "translate": "text.skills.root_health+4.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10244,7 +10264,9 @@
     ]
   },
   "healing+5%": {
-    "title": "+5% Healing",
+    "title": {
+      "translate": "text.skills.healing+5%.title_6"
+    },
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10264,7 +10286,9 @@
     ]
   },
   "healing+10%": {
-    "title": "+10% Healing",
+    "title": {
+      "translate": "text.skills.healing+10%.title"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -10283,7 +10307,9 @@
     ]
   },
   "crit_damage+5%": {
-    "title": "+5% Crit Damage",
+    "title": {
+      "translate": "text.skills.crit_damage+5%.title"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -10302,7 +10328,9 @@
     ]
   },
   "crit_chance+5%": {
-    "title": "+5% Crit Chance",
+    "title": {
+      "translate": "text.skills.crit_chance+5%.title"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -10321,7 +10349,9 @@
     ]
   },
   "dodge+5%": {
-    "title": "+5% Dodge chance",
+    "title": {
+      "translate": "text.skills.dodge+5%.title_6"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -10340,7 +10370,9 @@
     ]
   },
   "dodge+10%": {
-    "title": "+10% Dodge chance",
+    "title": {
+      "translate": "text.skills.dodge+10%.title_6"
+    },
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10360,7 +10392,9 @@
     ]
   },
   "cold_damage+0.5": {
-    "title": "+0.5 Cold Damage",
+    "title": {
+      "translate": "text.skills.cold_damage+0.5.title"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -10379,7 +10413,9 @@
     ]
   },
   "cold_damage+1": {
-    "title": "+1 Cold Damage",
+    "title": {
+      "translate": "text.skills.cold_damage+1.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10399,7 +10435,9 @@
     ]
   },
   "fire_damage+0.5": {
-    "title": "+0.5 Fire Damage",
+    "title": {
+      "translate": "text.skills.fire_damage+0.5.title"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -10418,7 +10456,9 @@
     ]
   },
   "fire_damage+1": {
-    "title": "+1 Fire Damage",
+    "title": {
+      "translate": "text.skills.fire_damage+1.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10438,7 +10478,9 @@
     ]
   },
   "armor_toughness+1": {
-    "title": "+1 Armor Toughness",
+    "title": {
+      "translate": "text.skills.armor_toughness+1.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10458,7 +10500,9 @@
     ]
   },
   "attack_knockback+5%": {
-    "title": "+5% Attack Knockback",
+    "title": {
+      "translate": "text.skills.attack_knockback+5%.title"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -10477,7 +10521,9 @@
     ]
   },
   "knockback_resistance+5%": {
-    "title": "+5% Knockback Resistance",
+    "title": {
+      "translate": "text.skills.knockback_resistance+5%.title"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -10496,7 +10542,9 @@
     ]
   },
   "adamantium": {
-    "title": "Unlock Adamantium Gear",
+    "title": {
+      "translate": "text.skills.adamantium.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10514,7 +10562,9 @@
     ]
   },
   "diamond": {
-    "title": "Unlock Diamond Gear",
+    "title": {
+      "translate": "text.skills.diamond.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10532,7 +10582,9 @@
     ]
   },
   "roll_count+1": {
-    "title": "+1 Max Roll",
+    "title": {
+      "translate": "text.skills.roll_count+1.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10552,7 +10604,9 @@
     ]
   },
   "roll_distance+1": {
-    "title": "+1 Max Roll Distance",
+    "title": {
+      "translate": "text.skills.roll_distance+1.title"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -10571,7 +10625,9 @@
     ]
   },
   "roll_cooldown-10%": {
-    "title": "-10% Roll Coolown",
+    "title": {
+      "translate": "text.skills.roll_cooldown-10%.title"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -10590,7 +10646,9 @@
     ]
   },
   "luck+1": {
-    "title": "+1 Luck",
+    "title": {
+      "translate": "text.skills.luck+1.title"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -10609,7 +10667,9 @@
     ]
   },
   "root_ranged_damage+15%": {
-    "title": "Chose the Ranged class (+15% Ranged Damage)",
+    "title": {
+      "translate": "text.skills.root_ranged_damage+15%.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10629,7 +10689,9 @@
     ]
   },
   "ranged_damage+5%": {
-    "title": "+5% Ranged Damage",
+    "title": {
+      "translate": "text.skills.ranged_damage+5%.title"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -10648,7 +10710,9 @@
     ]
   },
   "ranged_damage+10%": {
-    "title": "+10% Ranged Damage",
+    "title": {
+      "translate": "text.skills.ranged_damage+10%.title"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -10667,7 +10731,9 @@
     ]
   },
   "ranged_damage+20%": {
-    "title": "+20% Ranged Damage",
+    "title": {
+      "translate": "text.skills.ranged_damage+20%.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10687,7 +10753,9 @@
     ]
   },
   "armor_shred+5%": {
-    "title": "+5% Armor Shred",
+    "title": {
+      "translate": "text.skills.armor_shred+5%.title"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -10706,7 +10774,9 @@
     ]
   },
   "arrow_velocity+2%": {
-    "title": "+2% Arrow Velocity",
+    "title": {
+      "translate": "text.skills.arrow_velocity+2%.title"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -10725,7 +10795,9 @@
     ]
   },
   "current_hp_damage+5%": {
-    "title": "+5% Current Ennemy Health Damage",
+    "title": {
+      "translate": "text.skills.current_hp_damage+5%.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10745,7 +10817,9 @@
     ]
   },
   "draw_speed+5%": {
-    "title": "+5% Draw Speed",
+    "title": {
+      "translate": "text.skills.draw_speed+5%.title"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -10764,7 +10838,9 @@
     ]
   },
   "prot_shred+5%": {
-    "title": "+5% Protection Shred",
+    "title": {
+      "translate": "text.skills.prot_shred+5%.title"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -10783,7 +10859,9 @@
     ]
   },
   "palladium": {
-    "title": "Unlock Palladium Gear",
+    "title": {
+      "translate": "text.skills.palladium.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10801,7 +10879,9 @@
     ]
   },
   "orichalcum": {
-    "title": "Unlock Orichalcum Gear",
+    "title": {
+      "translate": "text.skills.orichalcum.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10819,7 +10899,9 @@
     ]
   },
   "shroomite": {
-    "title": "Unlock Shroomite Gear",
+    "title": {
+      "translate": "text.skills.shroomite.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10837,7 +10919,9 @@
     ]
   },
   "root_mana+75": {
-    "title": "Chose the Mage class (+75 Mana)",
+    "title": {
+      "translate": "text.skills.root_mana+75.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10857,7 +10941,9 @@
     ]
   },
   "mana+50": {
-    "title": "+50 Mana",
+    "title": {
+      "translate": "text.skills.mana+50.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10877,7 +10963,9 @@
     ]
   },
   "mana+25": {
-    "title": "+25 Mana",
+    "title": {
+      "translate": "text.skills.mana+25.title"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -10896,7 +10984,9 @@
     ]
   },
   "cast_time_reduction-5%": {
-    "title": "-5% Cast Time",
+    "title": {
+      "translate": "text.skills.cast_time_reduction-5%.title"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -10915,7 +11005,9 @@
     ]
   },
   "cooldown_reduction-5%": {
-    "title": "-5% Spell Cooldown",
+    "title": {
+      "translate": "text.skills.cooldown_reduction-5%.title"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -10934,7 +11026,9 @@
     ]
   },
   "spell_power+5%": {
-    "title": "+5% Spell Power",
+    "title": {
+      "translate": "text.skills.spell_power+5%.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11002,7 +11096,9 @@
     ]
   },
   "spell_power+10%": {
-    "title": "+10% Spell Power",
+    "title": {
+      "translate": "text.skills.spell_power+10%.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11070,7 +11166,9 @@
     ]
   },
   "spell_power+20%": {
-    "title": "+20% Spell Power",
+    "title": {
+      "translate": "text.skills.spell_power+20%.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11138,7 +11236,9 @@
     ]
   },
   "summon_damage+5%": {
-    "title": "+7% Summoning Damage",
+    "title": {
+      "translate": "text.skills.summon_damage+5%.title_5"
+    },
     "icon": {
       "type": "effect",
       "data": {
@@ -11157,7 +11257,9 @@
     ]
   },
   "summon_damage+10%": {
-    "title": "+15% Summon Damage",
+    "title": {
+      "translate": "text.skills.summon_damage+10%.title_5"
+    },
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -11177,7 +11279,9 @@
     ]
   },
   "lightning_spell_power+5%": {
-    "title": "+7% Lightning Spell Power",
+    "title": {
+      "translate": "text.skills.lightning_spell_power+5%.title_5"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -11204,7 +11308,9 @@
     ]
   },
   "lightning_spell_power+10%": {
-    "title": "+15% Lightning Spell Power",
+    "title": {
+      "translate": "text.skills.lightning_spell_power+10%.title_5"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11232,7 +11338,9 @@
     ]
   },
   "lightning_magic_resist+10%": {
-    "title": "+10% Lightning Magic Resist",
+    "title": {
+      "translate": "text.skills.lightning_magic_resist+10%.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11252,7 +11360,9 @@
     ]
   },
   "ice_spell_power+5%": {
-    "title": "+7% Ice Spell Power",
+    "title": {
+      "translate": "text.skills.ice_spell_power+5%.title_5"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -11279,7 +11389,9 @@
     ]
   },
   "ice_spell_power+10%": {
-    "title": "+15% Ice Spell Power",
+    "title": {
+      "translate": "text.skills.ice_spell_power+10%.title_5"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11307,7 +11419,9 @@
     ]
   },
   "ice_magic_resist+10%": {
-    "title": "+10% Ice Magic Resist",
+    "title": {
+      "translate": "text.skills.ice_magic_resist+10%.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11327,7 +11441,9 @@
     ]
   },
   "holy_spell_power+5%": {
-    "title": "+7% Holy Spell Power",
+    "title": {
+      "translate": "text.skills.holy_spell_power+5%.title_5"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -11354,7 +11470,9 @@
     ]
   },
   "holy_spell_power+10%": {
-    "title": "+15% Holy Spell Power",
+    "title": {
+      "translate": "text.skills.holy_spell_power+10%.title_5"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11382,7 +11500,9 @@
     ]
   },
   "holy_magic_resist+10%": {
-    "title": "+10% Holy Magic Resist",
+    "title": {
+      "translate": "text.skills.holy_magic_resist+10%.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11402,7 +11522,9 @@
     ]
   },
   "fire_spell_power+5%": {
-    "title": "+7% Fire Spell Power",
+    "title": {
+      "translate": "text.skills.fire_spell_power+5%.title_5"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -11429,7 +11551,9 @@
     ]
   },
   "fire_spell_power+10%": {
-    "title": "+15% Fire Spell Power",
+    "title": {
+      "translate": "text.skills.fire_spell_power+10%.title_5"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11457,7 +11581,9 @@
     ]
   },
   "fire_magic_resist+10%": {
-    "title": "+10% Fire Magic Resist",
+    "title": {
+      "translate": "text.skills.fire_magic_resist+10%.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11477,7 +11603,9 @@
     ]
   },
   "evocation_spell_power+5%": {
-    "title": "+7% Evocation Spell Power",
+    "title": {
+      "translate": "text.skills.evocation_spell_power+5%.title_5"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -11496,7 +11624,9 @@
     ]
   },
   "evocation_spell_power+10%": {
-    "title": "+17% Evocation Spell Power",
+    "title": {
+      "translate": "text.skills.evocation_spell_power+10%.title_5"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11516,7 +11646,9 @@
     ]
   },
   "evocation_magic_resist+10%": {
-    "title": "+10% Evocation Magic Resist",
+    "title": {
+      "translate": "text.skills.evocation_magic_resist+10%.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11536,7 +11668,9 @@
     ]
   },
   "ender_spell_power+5%": {
-    "title": "+7% Ender Spell Power",
+    "title": {
+      "translate": "text.skills.ender_spell_power+5%.title_5"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -11563,7 +11697,9 @@
     ]
   },
   "ender_spell_power+10%": {
-    "title": "+15% Ender Spell Power",
+    "title": {
+      "translate": "text.skills.ender_spell_power+10%.title_5"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11591,7 +11727,9 @@
     ]
   },
   "ender_magic_resist+10%": {
-    "title": "+10% Ender Magic Resist",
+    "title": {
+      "translate": "text.skills.ender_magic_resist+10%.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11611,7 +11749,9 @@
     ]
   },
   "blood_spell_power+5%": {
-    "title": "+7% Blood Spell Power",
+    "title": {
+      "translate": "text.skills.blood_spell_power+5%.title_5"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -11638,7 +11778,9 @@
     ]
   },
   "blood_spell_power+10%": {
-    "title": "+15% Blood Spell Power",
+    "title": {
+      "translate": "text.skills.blood_spell_power+10%.title_5"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11666,7 +11808,9 @@
     ]
   },
   "blood_magic_resist+10%": {
-    "title": "+10% Blood Magic Resist",
+    "title": {
+      "translate": "text.skills.blood_magic_resist+10%.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11686,7 +11830,9 @@
     ]
   },
   "spell_resist+10": {
-    "title": "+10% Spell Resist",
+    "title": {
+      "translate": "text.skills.spell_resist+10.title"
+    },
     "icon": {
       "type": "item",
       "data": {
@@ -11705,7 +11851,9 @@
     ]
   },
   "pumpkin": {
-    "title": "Unlock Scarecrow Gear",
+    "title": {
+      "translate": "text.skills.pumpkin.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11723,7 +11871,9 @@
     ]
   },
   "swim_speed+3%": {
-    "title": "+3% Swim Speed",
+    "title": {
+      "translate": "text.skills.swim_speed+3%.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -11743,7 +11893,9 @@
     ]
   },
   "mining_speed+5%": {
-    "title": "+5% Mining Speed",
+    "title": {
+      "translate": "text.skills.mining_speed+5%.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -11763,7 +11915,9 @@
     ]
   },
   "neptune": {
-    "title": "Unlock Neptune Gear",
+    "title": {
+      "translate": "text.skills.neptune.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11781,7 +11935,9 @@
     ]
   },
   "tungsten": {
-    "title": "Unlock Tungsten Gear",
+    "title": {
+      "translate": "text.skills.tungsten.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11799,7 +11955,9 @@
     ]
   },
   "phoenix": {
-    "title": "Unlock Phoenix Gear",
+    "title": {
+      "translate": "text.skills.phoenix.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11817,7 +11975,9 @@
     ]
   },
   "chorundum": {
-    "title": "Unlock Chorundum Gear",
+    "title": {
+      "translate": "text.skills.chorundum.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11835,7 +11995,9 @@
     ]
   },
   "paladin": {
-    "title": "Unlock Paladin Gear",
+    "title": {
+      "translate": "text.skills.paladin.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11853,7 +12015,9 @@
     ]
   },
   "crusader": {
-    "title": "Unlock Crusader Gear",
+    "title": {
+      "translate": "text.skills.crusader.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11871,7 +12035,9 @@
     ]
   },
   "valkyrie": {
-    "title": "Unlock Valkyrie Gear",
+    "title": {
+      "translate": "text.skills.valkyrie.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11889,7 +12055,9 @@
     ]
   },
   "ignitium": {
-    "title": "Unlock Neptune Gear",
+    "title": {
+      "translate": "text.skills.ignitium.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11907,7 +12075,9 @@
     ]
   },
   "tunic": {
-    "title": "Unlock Tunic Gear",
+    "title": {
+      "translate": "text.skills.tunic.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11925,7 +12095,9 @@
     ]
   },
   "prior": {
-    "title": "Unlock Prior Gear",
+    "title": {
+      "translate": "text.skills.prior.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11943,7 +12115,9 @@
     ]
   },
   "priest": {
-    "title": "Unlock Priest Gear",
+    "title": {
+      "translate": "text.skills.priest.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11961,7 +12135,9 @@
     ]
   },
   "wizard": {
-    "title": "Unlock Wizard Gear",
+    "title": {
+      "translate": "text.skills.wizard.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11979,7 +12155,9 @@
     ]
   },
   "zanite": {
-    "title": "Unlock Zanite Gear",
+    "title": {
+      "translate": "text.skills.zanite.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11997,7 +12175,9 @@
     ]
   },
   "school": {
-    "title": "Unlock All School Gear",
+    "title": {
+      "translate": "text.skills.school.title"
+    },
     "frame": "challenge",
     "icon": {
       "type": "item",
