@@ -13,7 +13,7 @@ JEIEvents.information((event) => {
       "gwrexpansions:netherite_shotgun",
       "gwrexpansions:netherite_gatling",
     ],
-    ["Sold by the Arms Dealer NPC"]
+    ["军火商NPC会出售这个物品"]
   );
 
   // Merchant
@@ -24,7 +24,7 @@ JEIEvents.information((event) => {
       "dummmmmmy:target_dummy",
       "minecraft:phantom_membrane",
     ],
-    ["Sold by the Merchant NPC"]
+    ["商人NPC会出售这个物品"]
   );
 
   // Tavernkeep
@@ -40,7 +40,7 @@ JEIEvents.information((event) => {
       "simplyskills:malevolent_manuscript",
       "drinkbeer:recipe_board_package",
     ],
-    ["Sold by the Tavernkeep NPC"]
+    ["酒保NPC会出售这个物品"]
   );
 
   // Nurse
@@ -50,7 +50,7 @@ JEIEvents.information((event) => {
       "confluence:band_of_regeneration",
       "confluence:cross_necklace",
     ],
-    ["Sold by the Nurse NPC"]
+    ["护士NPC会出售这个物品"]
   );
 
   // Goblin
@@ -63,7 +63,7 @@ JEIEvents.information((event) => {
       "confluence:dps_meter",
       "minecraft:firework_rocket",
     ],
-    ["Sold by the Goblin Thinkerer NPC"]
+    ["哥布林工匠NPC会出售这个物品"]
   );
 
   // Wizard
@@ -78,7 +78,7 @@ JEIEvents.information((event) => {
       "irons_spellbooks:rare_ink",
       "irons_spellbooks:epic_ink",
     ],
-    ["Sold by the Wizard NPC"]
+    ["巫师NPC会出售这个物品"]
   );
 
   // Steampunker
@@ -102,7 +102,7 @@ JEIEvents.information((event) => {
       "sophisticatedstorage:stack_upgrade_tier_4",
       "sophisticatedbackpacks:stack_upgrade_tier_4",
     ],
-    ["Sold by Steampunker NPC"]
+    ["蒸汽朋克人NPC会出售这个物品"]
   );
 
   //// Treasure Bags items
@@ -113,13 +113,13 @@ JEIEvents.information((event) => {
       "terra_entity:slime_staff",
       "terrawhips_and_more:slimywhip",
     ],
-    ["Obtained in the King Slime's Treasure Bag"]
+    ["可以从史莱姆王宝藏袋里获取"]
   );
 
   // Swampjaw
   event.addItem(
     ["meetyourfight:mossy_tooth"],
-    ["Obtained in the King Slime's Treasure Bag"]
+    ["可以从史莱姆王宝藏袋里获取"]
   );
 
   // Conjurer
@@ -131,13 +131,13 @@ JEIEvents.information((event) => {
       "conjurer_illager:throwable_ball",
       "confluence:shield_of_cthulhu",
     ],
-    ["Obtained in the Conjurer's Treasure Bag"]
+    ["可以从魔术师宝藏袋里获取"]
   );
 
   // Umvuthi
   event.addItem(
     ["endrem:black_eye", "mowziesmobs:sol_visage", "confluence:hive_pack"],
-    ["Obtained in the Umvuthi's Treasure Bag"]
+    ["可以从乌姆塔纳宝藏袋里获取"]
   );
 
   // Dead King
@@ -152,7 +152,7 @@ JEIEvents.information((event) => {
       "wizards:wizard_robe_legs",
       "wizards:wizard_robe_chest",
     ],
-    ["Obtained in the Dead King's Treasure Bag"]
+    ["可以从死者之王宝藏袋里获取"]
   );
 
   // Bellringer
@@ -168,7 +168,7 @@ JEIEvents.information((event) => {
       "confluence:frozen_turtle_shell",
       "endrem:cold_eye",
     ],
-    ["Obtained in the Frostmaw's Treasure Bag"]
+    ["可以从霜冻巨兽宝藏袋里获取"]
   );
 
   // Nether Keeper
@@ -179,7 +179,7 @@ JEIEvents.information((event) => {
       "artifacts:thorn_pendant",
       "majruszsaccessories:onyx",
     ],
-    ["Obtained in the Nether Keeper's Treasure Bag"]
+    ["可以从下界守卫宝藏袋里获取"]
   );
 
   // Awful Ghast
@@ -190,7 +190,7 @@ JEIEvents.information((event) => {
       "stalwart_dungeons:awful_gun",
       "artifacts:flame_pendant",
     ],
-    ["Obtained in the Awful Ghast's Treasure Bag"]
+    ["可以从惊骇恶魂宝藏袋里获取"]
   );
 
   // Nether Gauntlet
@@ -200,7 +200,7 @@ JEIEvents.information((event) => {
       "stalwart_dungeons:tungsten_ingot",
       "minecraft:netherite_upgrade_smithing_template",
     ],
-    ["Obtained in the Nether Gauntlet's Treasure Bag"]
+    ["可以从下界铁掌宝藏袋里获取"]
   );
 
   // Netherite Monstrosity
@@ -211,7 +211,7 @@ JEIEvents.information((event) => {
       "cataclysm:infernal_forge",
       "confluence:worm_scarf",
     ],
-    ["Obtained in the Netherite Monstrosity's Treasure Bag"]
+    ["可以从下界合金巨兽宝藏袋里获取"]
   );
 
   // Slider
@@ -226,7 +226,7 @@ JEIEvents.information((event) => {
       "aether:neptune_leggings",
       "aether:neptune_boots",
     ],
-    ["Obtained in the Slider's Treasure Bag"]
+    ["可以从滑行魔石宝藏袋里获取"]
   );
 
   // Valkyrie
@@ -250,13 +250,13 @@ JEIEvents.information((event) => {
       "aether:valkyrie_pickaxe",
       "aether:valkyrie_axe",
     ],
-    ["Obtained in the Valkyrie's Treasure Bag"]
+    ["可以从武神女王宝藏袋里获取"]
   );
 
   // Dame Fortuna
   event.addItem(
     ["meetyourfight:fortunes_favor", "undead_revamp2:luckysack"],
-    ["Obtained in the Dame Fortuna's Treasure Bag"]
+    ["可以从福尔图娜女爵宝藏袋里获取"]
   );
 
   // Void Blossom
@@ -267,7 +267,7 @@ JEIEvents.information((event) => {
       "bosses_of_mass_destruction:crystal_fruit",
       "gunswithoutroses:diamond_gatling",
     ],
-    ["Obtained in the Void Blossom's Treasure Bag"]
+    ["可以从虚空之花宝藏袋里获取"]
   );
 
   // Sun Spirit
@@ -288,25 +288,25 @@ JEIEvents.information((event) => {
       "aether:phoenix_leggings",
       "aether:phoenix_boots",
     ],
-    ["Obtained in the Sun Spirit's Treasure Bag"]
+    ["可以从烈阳巨灵宝藏袋里获取"]
   );
 
   // Leviathan
   event.addItem(
     ["endrem:cursed_eye", "cataclysm:tidal_claws", "cataclysm:abyssal_egg"],
-    ["Obtained in the Leviathan's Treasure Bag"]
+    ["可以从利维坦宝藏袋里获取"]
   );
 
   // Harbinger
   event.addItem(
     ["endrem:corrupted_eye", "cataclysm:witherite_block"],
-    ["Obtained in the Harbinger's Treasure Bag"]
+    ["可以从先驱者宝藏袋里获取"]
   );
 
   // Ignis
   event.addItem(
     ["endrem:black_eye", "confluence:demon_heart", "cataclysm:ignitium_ingot"],
-    ["Obtained in the ignis Treasure Bag"]
+    ["可以从炎魔宝藏袋里获取"]
   );
 
   // Obsidilith
@@ -316,7 +316,7 @@ JEIEvents.information((event) => {
       "artifacts:chorus_totem",
       "stalwart_dungeons:void_crystal",
     ],
-    ["Obtained in the Obsidilith's Treasure Bag"]
+    ["可以从黑曜石柱宝藏袋里获取"]
   );
 
   // Rosalyne
@@ -326,7 +326,7 @@ JEIEvents.information((event) => {
       "stalwart_dungeons:chorundum",
       "gunswithoutroses:amethyst_bullet",
     ],
-    ["Obtained in the Rosalyne's Treasure Bag"]
+    ["可以从罗莎琳宝藏袋里获取"]
   );
 
   // Ancient Remnant
@@ -336,12 +336,12 @@ JEIEvents.information((event) => {
       "cataclysm:remnant_skull",
       "cataclysm:sandstorm_in_a_bottle",
     ],
-    ["Obtained in the Ancient Remnant's Treasure Bag"]
+    ["可以从远古遗魂宝藏袋里获取"]
   );
 
   // Ender Guardian
   event.addItem(
     ["cataclysm:gauntlet_of_guard", "cataclysm:meat_shredder"],
-    ["Obtained in the Ender Guardian's Treasure Bag"]
+    ["可以从末影守卫宝藏袋里获取"]
   );
 });
