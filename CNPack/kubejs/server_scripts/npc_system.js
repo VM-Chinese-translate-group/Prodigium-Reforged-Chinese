@@ -896,16 +896,16 @@ BlockEvents.placed((event) => {
       for (let cat of missing) {
         switch (cat) {
           case "doors":
-            player.tell("Looks like it's missing a door.");
+            player.tell("看起来这个房子缺了个门。");
             break;
           case "light":
-            player.tell("Looks like it's missing a light source.");
+            player.tell("看起来这个房子没有光源。");
             break;
           case "tables":
-            player.tell("Looks like it's missing a table.");
+            player.tell("看起来这个房子缺少桌子。");
             break;
           case "chairs":
-            player.tell("Looks like it's missing a chair.");
+            player.tell("看起来这个房子缺少椅子。");
             break;
         }
       }
