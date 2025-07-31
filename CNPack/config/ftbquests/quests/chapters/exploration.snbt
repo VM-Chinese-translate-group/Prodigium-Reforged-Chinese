@@ -635,56 +635,6 @@
 			y: 1.0d
 		}
 		{
-			id: "261166A86CFF91F6"
-			rewards: [{
-				auto: "no_toast"
-				id: "6933093126376694"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "670D0284F9FC184D"
-				item: {
-					Count: 1
-					id: "vc_gliders:paraglider_iron"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.exploration.quest25.title}"
-			x: -1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["261166A86CFF91F6"]
-			description: ["{ftbquests.chapter.exploration.quest26.description1}"]
-			hide_until_deps_visible: true
-			id: "539D9A86161D23FF"
-			rewards: [
-				{
-					id: "6A6D427C5A292A1D"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					exclude_from_claim_all: true
-					id: "72A409BA7E291AFE"
-					table_id: 2230653418983874155L
-					type: "loot"
-				}
-			]
-			tasks: [{
-				id: "22892B133186208C"
-				item: "vc_gliders:copper_upgrade"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.exploration.quest26.title}"
-			x: 0.0d
-			y: 1.0d
-		}
-		{
 			dependencies: ["0F2E50059566AEBE"]
 			hide_until_deps_visible: true
 			id: "4214ACE6E3469233"
@@ -698,7 +648,7 @@
 				icon: "minecraft:nether_brick"
 				id: "1E9499BABC565A07"
 				structure: "bygonenether:citadel"
-				title: "{ftbquests.chapter.exploration.quest27.task_2203555144993757703.title}"
+				title: "{ftbquests.chapter.exploration.quest25.task_2203555144993757703.title}"
 				type: "structure"
 			}]
 			x: -1.0d
@@ -726,7 +676,7 @@
 				icon: "piglinproliferation:piglin_alchemist_head"
 				id: "13FF8EEB1FECA869"
 				structure: "bygonenether:piglin_manor"
-				title: "{ftbquests.chapter.exploration.quest28.task_1441027546285910121.title}"
+				title: "{ftbquests.chapter.exploration.quest26.task_1441027546285910121.title}"
 				type: "structure"
 			}]
 			x: 2.5d
@@ -746,7 +696,7 @@
 				biome: "gardens_of_the_dead:soulblight_forest"
 				icon: "gardens_of_the_dead:soulblight_fungus"
 				id: "19E7859D50DCF8A5"
-				title: "{ftbquests.chapter.exploration.quest29.task_1866607481281378469.title}"
+				title: "{ftbquests.chapter.exploration.quest27.task_1866607481281378469.title}"
 				type: "biome"
 			}]
 			x: 1.5d
@@ -766,7 +716,7 @@
 				biome: "gardens_of_the_dead:whistling_woods"
 				icon: "gardens_of_the_dead:whistlecane"
 				id: "401A2FDAB6C26FD5"
-				title: "{ftbquests.chapter.exploration.quest30.task_4619056984237436885.title}"
+				title: "{ftbquests.chapter.exploration.quest28.task_4619056984237436885.title}"
 				type: "biome"
 			}]
 			x: 0.0d
@@ -785,7 +735,7 @@
 				dimension: "aether:the_aether"
 				icon: "aether:aether_portal_frame"
 				id: "3334EAE72120B7B1"
-				title: "{ftbquests.chapter.exploration.quest31.task_3689832273137416113.title}"
+				title: "{ftbquests.chapter.exploration.quest29.task_3689832273137416113.title}"
 				type: "dimension"
 			}]
 			x: 3.0d
@@ -820,7 +770,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.exploration.quest32.title}"
+			title: "{ftbquests.chapter.exploration.quest30.title}"
 			x: 7.5d
 			y: -1.0d
 		}
@@ -853,13 +803,13 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.exploration.quest33.title}"
+			title: "{ftbquests.chapter.exploration.quest31.title}"
 			x: 7.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["406879C4C9D7B0FD"]
-			description: ["{ftbquests.chapter.exploration.quest34.description1}"]
+			description: ["{ftbquests.chapter.exploration.quest32.description1}"]
 			hide_until_deps_visible: true
 			id: "62D948E2D36892DE"
 			rewards: [{
@@ -873,8 +823,8 @@
 				item: "aether:ambrosium_shard"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.exploration.quest34.title}"
-			x: 3.0d
+			title: "{ftbquests.chapter.exploration.quest32.title}"
+			x: 2.0d
 			y: -4.5d
 		}
 		{
@@ -893,9 +843,9 @@
 				id: "0EF63C58C8EC1A0A"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.exploration.quest35.title}"
-			x: 2.0d
-			y: -4.0d
+			title: "{ftbquests.chapter.exploration.quest33.title}"
+			x: 1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["406879C4C9D7B0FD"]
@@ -913,9 +863,38 @@
 				id: "6AE4148949CCEBF6"
 				type: "biome"
 			}]
-			title: "{ftbquests.chapter.exploration.quest36.title}"
+			title: "{ftbquests.chapter.exploration.quest34.title}"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["406879C4C9D7B0FD"]
+			description: [
+				"{ftbquests.chapter.exploration.quest35.description1}"
+				""
+				"{ftbquests.chapter.exploration.quest35.description2}"
+			]
+			id: "62D78C9B289DE586"
+			rewards: [
+				{
+					id: "1178A3BDEE702733"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "0C5B89CB924B48B4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "323816B281DE3E85"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.exploration.quest35.title}"
 			x: 4.0d
-			y: -4.0d
+			y: -4.5d
 		}
 	]
 	title: "{ftbquests.chapter.exploration.title}"

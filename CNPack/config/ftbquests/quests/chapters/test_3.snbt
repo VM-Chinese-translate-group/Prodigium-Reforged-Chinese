@@ -63,7 +63,7 @@
 			image: "prodigium_reforged:textures/gui/normal_mode.png"
 			rotation: 0.0d
 			width: 7.0d
-			x: 13.0d
+			x: 14.5d
 			y: 2.0d
 		}
 	]
@@ -341,13 +341,6 @@
 					id: "528F36A63AF6D27C"
 					item: "majruszsdifficulty:recall_potion"
 					type: "item"
-				}
-				{
-					command: "/puffish_skills experience add @p general 125"
-					icon: "minecraft:experience_bottle"
-					id: "2DE75B12CEA39186"
-					title: "{ftbquests.chapter.test_3.quest4.reward_3307712587661283718.title}"
-					type: "command"
 				}
 				{
 					exclude_from_claim_all: true
